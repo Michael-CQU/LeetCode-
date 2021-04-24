@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="377_combinationsum4.cpp" />
+    <ClCompile Include="exclusiveOR_xor.cpp" />
+    <ClCompile Include="finddisappearednumbers.cpp" />
+    <ClCompile Include="kmp.cpp" />
+    <ClCompile Include="numDecodings.cpp" />
+    <ClCompile Include="sortcolor.cpp" />
+    <ClCompile Include="to_sum.cpp" />
+    <ClCompile Include="类.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{43A7F012-8124-4817-BBAA-7F03B9BC87ED}</ProjectGuid>
     <RootNamespace>代码实现</RootNamespace>
