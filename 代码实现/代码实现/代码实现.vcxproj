@@ -21,13 +21,27 @@
   <ItemGroup>
     <ClCompile Include="377_combinationsum4.cpp" />
     <ClCompile Include="392_isSubsequence.cpp" />
+    <ClCompile Include="cout_out.cpp" />
+    <ClCompile Include="emplace_pushback.cpp" />
     <ClCompile Include="exclusiveOR_xor.cpp" />
     <ClCompile Include="finddisappearednumbers.cpp" />
+    <ClCompile Include="finddisappearednums.cpp" />
     <ClCompile Include="kmp.cpp" />
+    <ClCompile Include="largestDivisiblesubset.cpp" />
+    <ClCompile Include="new and delete.cpp" />
     <ClCompile Include="numDecodings.cpp" />
+    <ClCompile Include="NumMartix.cpp" />
+    <ClCompile Include="removeduplicate.cpp" />
+    <ClCompile Include="removeduplicate3.cpp" />
     <ClCompile Include="sortcolor.cpp" />
     <ClCompile Include="to_sum.cpp" />
+    <ClCompile Include="Vector二维.cpp" />
+    <ClCompile Include="异常类illegalParameterValue.cpp" />
     <ClCompile Include="类.cpp" />
+    <ClCompile Include="类currency.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="time_interval.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{43A7F012-8124-4817-BBAA-7F03B9BC87ED}</ProjectGuid>

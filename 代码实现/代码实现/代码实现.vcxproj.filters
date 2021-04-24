@@ -42,5 +42,43 @@
     <ClCompile Include="392_isSubsequence.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="cout_out.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="emplace_pushback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="finddisappearednums.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="largestDivisiblesubset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="new and delete.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumMartix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="removeduplicate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="removeduplicate3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector二维.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类currency.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="异常类illegalParameterValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="time_interval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
