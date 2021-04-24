@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="377_combinationsum4.cpp" />
+    <ClCompile Include="392_isSubsequence.cpp" />
     <ClCompile Include="exclusiveOR_xor.cpp" />
     <ClCompile Include="finddisappearednumbers.cpp" />
     <ClCompile Include="kmp.cpp" />
