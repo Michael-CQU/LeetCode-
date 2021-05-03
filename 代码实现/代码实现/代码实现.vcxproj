@@ -26,6 +26,7 @@
     <ClCompile Include="exclusiveOR_xor.cpp" />
     <ClCompile Include="finddisappearednumbers.cpp" />
     <ClCompile Include="finddisappearednums.cpp" />
+    <ClCompile Include="7_intreverse.cpp" />
     <ClCompile Include="kmp.cpp" />
     <ClCompile Include="largestDivisiblesubset.cpp" />
     <ClCompile Include="new and delete.cpp" />
