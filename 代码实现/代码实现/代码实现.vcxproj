@@ -34,6 +34,7 @@
     <ClCompile Include="NumMartix.cpp" />
     <ClCompile Include="removeduplicate.cpp" />
     <ClCompile Include="removeduplicate3.cpp" />
+    <ClCompile Include="sizeof_variable.cpp" />
     <ClCompile Include="sortcolor.cpp" />
     <ClCompile Include="to_sum.cpp" />
     <ClCompile Include="Vector二维.cpp" />

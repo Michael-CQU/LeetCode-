@@ -78,6 +78,9 @@
     <ClCompile Include="7_intreverse.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="sizeof_variable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
