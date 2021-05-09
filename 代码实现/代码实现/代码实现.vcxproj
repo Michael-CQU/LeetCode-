@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="1842_minDays.cpp" />
     <ClCompile Include="377_combinationsum4.cpp" />
     <ClCompile Include="392_isSubsequence.cpp" />
     <ClCompile Include="cout_out.cpp" />
@@ -39,6 +40,7 @@
     <ClCompile Include="异常类illegalParameterValue.cpp" />
     <ClCompile Include="类.cpp" />
     <ClCompile Include="类currency.cpp" />
+    <ClCompile Include="链表复制构造函数.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h" />
