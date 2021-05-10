@@ -23,6 +23,7 @@
     <ClCompile Include="377_combinationsum4.cpp" />
     <ClCompile Include="392_isSubsequence.cpp" />
     <ClCompile Include="cout_out.cpp" />
+    <ClCompile Include="Cpp_basics.cpp" />
     <ClCompile Include="emplace_pushback.cpp" />
     <ClCompile Include="exclusiveOR_xor.cpp" />
     <ClCompile Include="finddisappearednumbers.cpp" />
@@ -37,6 +38,7 @@
     <ClCompile Include="removeduplicate3.cpp" />
     <ClCompile Include="sizeof_variable.cpp" />
     <ClCompile Include="sortcolor.cpp" />
+    <ClCompile Include="swap.cpp" />
     <ClCompile Include="to_sum.cpp" />
     <ClCompile Include="Vector二维.cpp" />
     <ClCompile Include="异常类illegalParameterValue.cpp" />
@@ -45,6 +47,7 @@
     <ClCompile Include="链表复制构造函数.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="swap.h" />
     <ClInclude Include="time_interval.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

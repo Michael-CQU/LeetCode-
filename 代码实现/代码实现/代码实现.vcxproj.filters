@@ -81,9 +81,24 @@
     <ClCompile Include="1842_minDays.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="7_intreverse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof_variable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="swap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_basics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="swap.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <ctime>
 using namespace std;
 
 //int main() {
@@ -246,32 +247,150 @@ using namespace std;
 //	return 0;
 //}
 
-int main() {
+//int main() {
+//
+//	//二维数组数组名
+//	int arr[2][3] =
+//	{
+//		{1,2,3},
+//		{4,5,6}
+//	};
+//
+//	cout << "二维数组大小： " << sizeof(arr) << endl;
+//	cout << "二维数组一行大小： " << sizeof(arr[0]) << endl;
+//	cout << "二维数组元素大小： " << sizeof(arr[0][0]) << endl;
+//
+//	cout << "二维数组行数： " << sizeof(arr) / sizeof(arr[0]) << endl;
+//	cout << "二维数组列数： " << sizeof(arr[0]) / sizeof(arr[0][0]) << endl;
+//	cout << "二维数组元素个数： " << sizeof(arr) / sizeof(arr[0][0]) << endl;
+//
+//	//地址
+//	cout << "二维数组首地址：" << arr << endl;
+//	cout << "二维数组第一行地址：" << arr[0] << endl;
+//	cout << "二维数组第二行地址：" << arr[1] << endl;
+//
+//	cout << "二维数组第一个元素地址：" << &arr[0][0] << endl;
+//	cout << "二维数组第二个元素地址：" << &arr[0][1] << endl;
+//
+//	system("pause");
+//
+//	return 0;
+//}
 
-	//二维数组数组名
-	int arr[2][3] =
-	{
-		{1,2,3},
-		{4,5,6}
-	};
+////值传递
+//void swap1(int a, int b)
+//{
+//	int temp = a;
+//	a = b;
+//	b = temp;
+//}
+////地址传递
+//void swap2(int * p1, int *p2)
+//{
+//	p1++;
+//	p2++;
+//	int temp = *p1;
+//	*p1 = *p2;
+//	*p2 = temp;
+//	cout << "p1 = " << p1 << endl;
+//	//p1++;
+//	cout<<"p1++ = " << p1 << endl;
+//}
+//
+//int main() {
+//
+//	int a = 10;
+//	int b = 20;
+//	swap1(a, b); // 值传递不会改变实参
+//	cout << "前&a = " << &a << endl;
+//	swap2(&a, &b); //地址传递会改变实参
+//
+//	cout <<"后&a = "<< &a << endl;
+//
+//	cout << "a = " << a << endl;
+//
+//	cout << "b = " << b << endl;
+//
+//	system("pause");
+//
+//	return 0;
+//}
 
-	cout << "二维数组大小： " << sizeof(arr) << endl;
-	cout << "二维数组一行大小： " << sizeof(arr[0]) << endl;
-	cout << "二维数组元素大小： " << sizeof(arr[0][0]) << endl;
+////案例8.8.2
+//struct hero {
+//	string name;
+//	int age;
+//	string sex;
+//};
+//void bubbleSort(hero arr[], int len) {
+//	for (int i = 0; i < len - 1; i++) {
+//		for (int j = 0; j < len - 1 - i; j++) {
+//			if (arr[j].age > arr[j + 1].age)
+//			{
+//				hero temp = arr[j];
+//				arr[j] = arr[j + 1];
+//				arr[j + 1] = temp;
+//			}
+//		}
+//	}
+//}
+//void printhero(hero arr[], int len) {
+//	for (int i = 0; i < len; i++) {
+//		cout << arr[i].name << arr[i].age << arr[i].sex << endl;
+//	}
+//}
+//int main() {
+//	hero arr[5] = {
+//		{"A",23,"基佬"},
+//		{"B",21,"基佬" },
+//		{"C",26,"基佬" },
+//		{"D",28,"基佬" },
+//		{"E",23,"基佬" }
+//	};
+//	int n = sizeof(arr) / sizeof(hero);
+//	bubbleSort(arr, n);
+//	printhero(arr, n);
+//	system("pause");
+//	return 0;
+//}
 
-	cout << "二维数组行数： " << sizeof(arr) / sizeof(arr[0]) << endl;
-	cout << "二维数组列数： " << sizeof(arr[0]) / sizeof(arr[0][0]) << endl;
-	cout << "二维数组元素个数： " << sizeof(arr) / sizeof(arr[0][0]) << endl;
-
-	//地址
-	cout << "二维数组首地址：" << arr << endl;
-	cout << "二维数组第一行地址：" << arr[0] << endl;
-	cout << "二维数组第二行地址：" << arr[1] << endl;
-
-	cout << "二维数组第一个元素地址：" << &arr[0][0] << endl;
-	cout << "二维数组第二个元素地址：" << &arr[0][1] << endl;
-
-	system("pause");
-
-	return 0;
-}
+////案例8.8.1
+//struct student {
+//	string name;
+//	int age;
+//	int score;
+//};
+//struct teacher {
+//	string name;
+//	student arr[5];
+//};
+//void setvalue(teacher Arr1[], int len) {
+//	string Tname = "老师";
+//	string Sname = "学生";
+//	string nameSeed = "ABCDE";
+//	for (int i = 0; i < len; i++) {
+//		Arr1[i].name = Tname + nameSeed[i];
+//		for (int j = 0; j < 5; j++) {
+//			Arr1[i].arr[j].name = Sname + nameSeed[j];
+//			Arr1[i].arr[j].score = rand() % 41 + 60;
+//		}
+//	}
+//}
+//void printresult(teacher Arr1[], int len) {
+//	for (int i = 0; i < len; i++) {
+//		for (int j = 0; j < 5; j++) {
+//			cout << Arr1[i].name << endl;
+//			cout << "\t姓名：" << Arr1[i].arr[j].name << "分数：" << Arr1[i].arr[j].score << endl;
+//		}
+//	}
+//}
+//int main() {
+//	srand((unsigned int)time(NULL));
+//	teacher Arr[3];
+//	int n = sizeof(Arr) / sizeof(teacher);
+//	setvalue(Arr, n);
+//	printresult(Arr, n);
+//	system("pause");
+//	return 0;
+//
+//}
