@@ -27,6 +27,7 @@
     <ClCompile Include="exclusiveOR_xor.cpp" />
     <ClCompile Include="finddisappearednumbers.cpp" />
     <ClCompile Include="finddisappearednums.cpp" />
+    <ClCompile Include="7_intreverse.cpp" />
     <ClCompile Include="kmp.cpp" />
     <ClCompile Include="largestDivisiblesubset.cpp" />
     <ClCompile Include="new and delete.cpp" />
@@ -34,6 +35,7 @@
     <ClCompile Include="NumMartix.cpp" />
     <ClCompile Include="removeduplicate.cpp" />
     <ClCompile Include="removeduplicate3.cpp" />
+    <ClCompile Include="sizeof_variable.cpp" />
     <ClCompile Include="sortcolor.cpp" />
     <ClCompile Include="to_sum.cpp" />
     <ClCompile Include="Vector二维.cpp" />
