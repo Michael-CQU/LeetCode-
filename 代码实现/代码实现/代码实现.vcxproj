@@ -24,6 +24,7 @@
     <ClCompile Include="1842_minDays.cpp" />
     <ClCompile Include="377_combinationsum4.cpp" />
     <ClCompile Include="392_isSubsequence.cpp" />
+    <ClCompile Include="circle.cpp" />
     <ClCompile Include="cout_out.cpp" />
     <ClCompile Include="Cpp_basics.cpp" />
     <ClCompile Include="emplace_pushback.cpp" />
@@ -36,6 +37,7 @@
     <ClCompile Include="new and delete.cpp" />
     <ClCompile Include="numDecodings.cpp" />
     <ClCompile Include="NumMartix.cpp" />
+    <ClCompile Include="point.cpp" />
     <ClCompile Include="removeduplicate.cpp" />
     <ClCompile Include="removeduplicate3.cpp" />
     <ClCompile Include="sizeof_variable.cpp" />
@@ -49,6 +51,8 @@
     <ClCompile Include="链表复制构造函数.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="circle.h" />
+    <ClInclude Include="point.h" />
     <ClInclude Include="swap.h" />
     <ClInclude Include="time_interval.h" />
   </ItemGroup>
