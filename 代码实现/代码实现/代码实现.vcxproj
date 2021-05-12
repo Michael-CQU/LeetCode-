@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="1310_xorQueries.cpp" />
     <ClCompile Include="1734_decoded.cpp" />
     <ClCompile Include="1842_minDays.cpp" />
     <ClCompile Include="377_combinationsum4.cpp" />

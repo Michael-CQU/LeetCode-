@@ -96,6 +96,9 @@
     <ClCompile Include="1734_decoded.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1310_xorQueries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
