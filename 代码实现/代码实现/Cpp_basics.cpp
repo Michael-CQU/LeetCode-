@@ -283,27 +283,317 @@ using namespace std;
 //	return 0;
 //}
 
-class Person {
+//class Person {
+//public:
+//	Person() {
+//		mA = 0;
+//	}
+//	//非静态成员变量占对象空间
+//	int mA;
+//	//静态成员变量不占对象空间
+//	static int mB;
+//	//函数也不占对象空间，所有函数共享一个函数实例
+//	void func() {
+//		cout << "mA:" << this->mA << endl;
+//	}
+//	//静态成员函数也不占对象空间
+//	static void sfunc() {
+//	}
+//};
+//
+//int main() {
+//
+//	cout << sizeof(Person) << endl;
+//
+//	system("pause");
+//
+//	return 0;
+//}
+
+////取模运算
+//int main() {
+//	int num = 3987;
+//	int thousands = num / 1000;
+//	int hundreds = (num / 100) % 10;
+//	int tens = (num / 10) % 10;
+//	int ones = num % 10;
+//	cout << thousands << " " << hundreds << " " << tens << " " << ones << endl;
+//	system("pause");
+//	return 0;
+//}
+
+//class Building;
+//class Goodgay {
+//public:
+//	Goodgay();
+//	void visit();
+//	void visit2();
+//private:
+//	Building * building;
+//
+//};
+//
+//class Building {
+//	friend void Goodgay::visit();
+//public:
+//	Building();
+//	string m_settingroom;
+//private:
+//	string m_bedroom;
+//};
+//
+//Goodgay::Goodgay() {
+//	building = new Building;
+//}
+//Building::Building() {
+//	m_settingroom = "客厅";
+//	m_bedroom = "卧室";
+//}
+//void Goodgay::visit() {
+//	cout << building->m_settingroom << endl;
+//	cout << building->m_bedroom << endl;
+//}
+//void Goodgay::visit2() {
+//	cout << building->m_settingroom << endl;
+//	//cout << building->m_bedroom << endl;
+//}
+//
+//int main() {
+//	Goodgay gg;
+//	gg.visit();
+//
+//	system("pause");
+//	return 0;
+//}
+
+//class MyPrint
+//{
+//public:
+//	void operator()(string text)
+//	{
+//		cout << text << endl;
+//	}
+//
+//};
+//void test01()
+//{
+//	//重载的（）操作符 也称为仿函数
+//	MyPrint myFunc;
+//	myFunc("hello world");
+//}
+//
+//
+//class MyAdd
+//{
+//public:
+//	int operator()(int v1, int v2)
+//	{
+//		return v1 + v2;
+//	}
+//};
+//
+//void test02()
+//{
+//	MyAdd add;
+//	int ret = add(10, 10);
+//	cout << "ret = " << ret << endl;
+//
+//	//匿名对象调用  
+//	cout << "MyAdd()(100,100) = " << MyAdd()(100, 100) << endl;
+//}
+//
+//int main() {
+//
+//	test01();
+//	test02();
+//
+//	system("pause");
+//
+//	return 0;
+//}
+
+//class Animal
+//{
+//public:
+//	int m_Age;
+//};
+//
+////继承前加virtual关键字后，变为虚继承
+////此时公共的父类Animal称为虚基类
+//class Sheep : virtual public Animal {};
+//class Tuo : virtual public Animal {};
+//class SheepTuo : public Sheep, public Tuo {};
+//
+//void test01()
+//{
+//	SheepTuo st;
+//	st.Sheep::m_Age = 100;
+//	st.Tuo::m_Age = 200;
+//	cout << "size of SheepTuo:" << sizeof(st) << endl;
+//	cout << "st.Sheep::m_Age = " << st.Sheep::m_Age << endl;
+//	cout << "st.Tuo::m_Age = " << st.Tuo::m_Age << endl;
+//	cout << "st.m_Age = " << st.m_Age << endl;
+//}
+//
+//
+//int main() {
+//
+//	test01();
+//
+//	system("pause");
+//
+//	return 0;
+//}
+
+////普通实现
+//class Calculator {
+//public:
+//	int getResult(string oper)
+//	{
+//		if (oper == "+") {
+//			return m_Num1 + m_Num2;
+//		}
+//		else if (oper == "-") {
+//			return m_Num1 - m_Num2;
+//		}
+//		else if (oper == "*") {
+//			return m_Num1 * m_Num2;
+//		}
+//		//如果要提供新的运算，需要修改源码
+//	}
+//public:
+//	int m_Num1;
+//	int m_Num2;
+//};
+//
+//void test01()
+//{
+//	//普通实现测试
+//	Calculator c;
+//	c.m_Num1 = 10;
+//	c.m_Num2 = 10;
+//	cout << c.m_Num1 << " + " << c.m_Num2 << " = " << c.getResult("+") << endl;
+//
+//	cout << c.m_Num1 << " - " << c.m_Num2 << " = " << c.getResult("-") << endl;
+//
+//	cout << c.m_Num1 << " * " << c.m_Num2 << " = " << c.getResult("*") << endl;
+//}
+//
+//
+//
+////多态实现
+////抽象计算器类
+////多态优点：代码组织结构清晰，可读性强，利于前期和后期的扩展以及维护
+//class AbstractCalculator
+//{
+//public:
+//
+//	virtual int getResult()
+//	{
+//		return 0;
+//	}
+//
+//	int m_Num1;
+//	int m_Num2;
+//};
+//
+////加法计算器
+//class AddCalculator :public AbstractCalculator
+//{
+//public:
+//	int getResult()
+//	{
+//		return m_Num1 + m_Num2;
+//	}
+//};
+//
+////减法计算器
+//class SubCalculator :public AbstractCalculator
+//{
+//public:
+//	int getResult()
+//	{
+//		return m_Num1 - m_Num2;
+//	}
+//};
+//
+////乘法计算器
+//class MulCalculator :public AbstractCalculator
+//{
+//public:
+//	int getResult()
+//	{
+//		return m_Num1 * m_Num2;
+//	}
+//};
+//
+//
+//void test02()
+//{
+//	//创建加法计算器
+//	AbstractCalculator *abc = new AddCalculator;
+//	abc->m_Num1 = 10;
+//	abc->m_Num2 = 10;
+//	cout << abc->m_Num1 << " + " << abc->m_Num2 << " = " << abc->getResult() << endl;
+//	delete abc;  //用完了记得销毁
+//
+//				 //创建减法计算器
+//	abc = new SubCalculator;
+//	abc->m_Num1 = 10;
+//	abc->m_Num2 = 10;
+//	cout << abc->m_Num1 << " - " << abc->m_Num2 << " = " << abc->getResult() << endl;
+//	delete abc;
+//
+//	//创建乘法计算器
+//	abc = new MulCalculator;
+//	abc->m_Num1 = 10;
+//	abc->m_Num2 = 10;
+//	cout << abc->m_Num1 << " * " << abc->m_Num2 << " = " << abc->getResult() << endl;
+//	delete abc;
+//}
+//
+//int main() {
+//
+//	//test01();
+//
+//	test02();
+//
+//	system("pause");
+//
+//	return 0;
+//}
+
+class Base
+{
 public:
-	Person() {
-		mA = 0;
-	}
-	//非静态成员变量占对象空间
-	int mA;
-	//静态成员变量不占对象空间
-	static int mB;
-	//函数也不占对象空间，所有函数共享一个函数实例
-	void func() {
-		cout << "mA:" << this->mA << endl;
-	}
-	//静态成员函数也不占对象空间
-	static void sfunc() {
+	//纯虚函数
+	//类中只要有一个纯虚函数就称为抽象类
+	//抽象类无法实例化对象
+	//子类必须重写父类中的纯虚函数，否则也属于抽象类
+	virtual void func() = 0;
+};
+
+class Son :public Base
+{
+public:
+	void func()
+	{
+		cout << "func调用" << endl;
 	}
 };
 
+void test01()
+{
+	Base * base = NULL;
+	//base = new Base; // 错误，抽象类无法实例化对象
+	base = new Son;
+	base->func();
+	delete base;//记得销毁
+}
+
 int main() {
 
-	cout << sizeof(Person) << endl;
+	test01();
 
 	system("pause");
 
