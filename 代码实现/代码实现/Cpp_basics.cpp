@@ -563,39 +563,93 @@ using namespace std;
 //	return 0;
 //}
 
-class Base
-{
-public:
-	//纯虚函数
-	//类中只要有一个纯虚函数就称为抽象类
-	//抽象类无法实例化对象
-	//子类必须重写父类中的纯虚函数，否则也属于抽象类
-	virtual void func() = 0;
-};
+//class Base
+//{
+//public:
+//	//纯虚函数
+//	//类中只要有一个纯虚函数就称为抽象类
+//	//抽象类无法实例化对象
+//	//子类必须重写父类中的纯虚函数，否则也属于抽象类
+//	virtual void func() = 0;
+//};
+//
+//class Son :public Base
+//{
+//public:
+//	void func()
+//	{
+//		cout << "func调用" << endl;
+//	}
+//};
+//
+//void test01()
+//{
+//	Base * base = NULL;
+//	//base = new Base; // 错误，抽象类无法实例化对象
+//	base = new Son;
+//	base->func();
+//	delete base;//记得销毁
+//}
+//
+//int main() {
+//
+//	test01();
+//
+//	system("pause");
+//
+//	return 0;
+//}
 
-class Son :public Base
-{
-public:
-	void func()
-	{
-		cout << "func调用" << endl;
-	}
-};
-
-void test01()
-{
-	Base * base = NULL;
-	//base = new Base; // 错误，抽象类无法实例化对象
-	base = new Son;
-	base->func();
-	delete base;//记得销毁
-}
-
-int main() {
-
-	test01();
-
-	system("pause");
-
-	return 0;
-}
+//#include <fstream>
+//#include <string>
+//void test01()
+//{
+//	ifstream ifs;
+//	ifs.open("test.txt", ios::in);
+//
+//	if (!ifs.is_open())
+//	{
+//		cout << "文件打开失败" << endl;
+//		return;
+//	}
+//
+//	//第一种方式
+//	//char buf[1024] = { 0 };
+//	//while (ifs >> buf)
+//	//{
+//	//	cout << buf << endl;
+//	//}
+//
+//	//第二种
+//	//char buf[1024] = { 0 };
+//	//while (ifs.getline(buf,sizeof(buf)))
+//	//{
+//	//	cout << buf << endl;
+//	//}
+//
+//	//第三种
+//	string buf;
+//	while (getline(ifs,buf))
+//	{
+//		cout << buf << endl;
+//	}
+//
+//	//char c;
+//	//while ((c = ifs.get()) != EOF)
+//	//{
+//	//	cout << c;
+//	//}
+//
+//	//ifs.close();
+//
+//
+//}
+//
+//int main() {
+//
+//	test01();
+//
+//	system("pause");
+//
+//	return 0;
+//}
