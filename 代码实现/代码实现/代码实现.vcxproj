@@ -24,9 +24,11 @@
     <ClCompile Include="1842_minDays.cpp" />
     <ClCompile Include="377_combinationsum4.cpp" />
     <ClCompile Include="392_isSubsequence.cpp" />
+    <ClCompile Include="421_findMaximunXOR.cpp" />
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="cout_out.cpp" />
     <ClCompile Include="Cpp_basics.cpp" />
+    <ClCompile Include="Cpp_Improve.cpp" />
     <ClCompile Include="emplace_pushback.cpp" />
     <ClCompile Include="exclusiveOR_xor.cpp" />
     <ClCompile Include="finddisappearednumbers.cpp" />
@@ -34,6 +36,7 @@
     <ClCompile Include="7_intreverse.cpp" />
     <ClCompile Include="kmp.cpp" />
     <ClCompile Include="largestDivisiblesubset.cpp" />
+    <ClCompile Include="myArray.cpp" />
     <ClCompile Include="new and delete.cpp" />
     <ClCompile Include="numDecodings.cpp" />
     <ClCompile Include="NumMartix.cpp" />
@@ -52,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circle.h" />
+    <ClInclude Include="myArray.hpp" />
     <ClInclude Include="point.h" />
     <ClInclude Include="swap.h" />
     <ClInclude Include="time_interval.h" />

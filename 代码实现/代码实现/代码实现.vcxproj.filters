@@ -105,6 +105,15 @@
     <ClCompile Include="circle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="421_findMaximunXOR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp_Improve.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
@@ -117,6 +126,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="circle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myArray.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
