@@ -3,7 +3,7 @@
 #include <deque>
 #include <vector>
 #include <ctime>
-#include <algorithm>
+//#include <algorithm>
 #include <stack>
 #include <queue>
 using namespace std;
@@ -227,39 +227,172 @@ using namespace std;
 //	return 0;
 //}
 
-#include <vector>
-#include <functional>
-#include <algorithm>
-void test01()
-{
-	vector<bool> v;
-	v.push_back(true);
-	v.push_back(false);
-	v.push_back(true);
-	v.push_back(false);
+//#include <vector>
+//#include <functional>
+//#include <algorithm>
+//void test01()
+//{
+//	vector<bool> v;
+//	v.push_back(true);
+//	v.push_back(false);
+//	v.push_back(true);
+//	v.push_back(false);
+//
+//	for (vector<bool>::iterator it = v.begin(); it != v.end(); it++)
+//	{
+//		cout << *it << " ";
+//	}
+//	cout << endl;
+//	//逻辑非  将v容器搬运到v2中，并执行逻辑非运算
+//	vector<bool> v2;
+//	//v2.resize(v.size());
+//	//transform(v.begin(), v.end(), v2.begin(), logical_not<bool>());
+//	for (vector<bool>::iterator it = v.begin(); it != v.end(); it++)
+//	{
+//		v2.push_back(*it);
+//	}
+//	for (vector<bool>::iterator it = v2.begin(); it != v2.end(); it++)
+//	{
+//		cout << *it << " ";
+//	}
+//	cout << endl;
+//}
+//
+//int main() {
+//
+//	test01();
+//
+//	system("pause");
+//
+//	return 0;
+//}
 
-	for (vector<bool>::iterator it = v.begin(); it != v.end(); it++)
-	{
-		cout << *it << " ";
-	}
-	cout << endl;
+//#include <algorithm>
+//#include <vector>
+//
+////普通函数
+//void print01(int val)
+//{
+//	cout << val << " ";
+//}
+////函数对象
+//class print02
+//{
+//public:
+//	void operator()(int val)
+//	{
+//		cout << val << " ";
+//	}
+//	void aa(int val)
+//	{
+//		cout << val << "1";
+//	}
+//};
+//
+////for_each算法基本用法
+//void test01() {
+//
+//	vector<int> v;
+//	for (int i = 0; i < 10; i++)
+//	{
+//		v.push_back(i);
+//	}
+//
+//	//遍历算法
+//	for_each(v.begin(), v.end(), print01);
+//	cout << endl;
+//
+//	print02 p;
+//	for_each(v.begin(), v.end(), p);
+//	cout << endl;
+//}
+//
+//int main() {
+//
+//	test01();
+//
+//	system("pause");
+//
+//	return 0;
+//}
 
-	//逻辑非  将v容器搬运到v2中，并执行逻辑非运算
-	vector<bool> v2;
-	v2.resize(v.size());
-	transform(v.begin(), v.end(), v2.begin(), logical_not<bool>());
-	for (vector<bool>::iterator it = v2.begin(); it != v2.end(); it++)
-	{
-		cout << *it << " ";
-	}
-	cout << endl;
-}
+//#include <algorithm>
+//#include <vector>
+//
+//void test01()
+//{
+//	vector<int> v;
+//	v.push_back(1);
+//	v.push_back(2);
+//	v.push_back(5);
+//	v.push_back(2);
+//	v.push_back(4);
+//	v.push_back(4);
+//	v.push_back(3);
+//	v.push_back(2);
+//	v.push_back(2);
+//
+//	//查找相邻重复元素
+//	for (vector<int>::iterator it1 = v.begin(); it1 != v.end(); it1++) {
+//		vector<int>::iterator it = adjacent_find(it1, v.end());
+//		if (it == v.end()) {
+//			cout << "找不到!" << endl;
+//		}
+//		else {
+//			cout << "找到相邻重复元素为:" << *it << endl;
+//			it1 = it;
+//		}
+//	}
+//}
+//int main(){
+//	test01();
+//	system("pause");
+//	return 0;
+//}
 
-int main() {
-
-	test01();
-
-	system("pause");
-
-	return 0;
-}
+//#include <vector>
+//
+//class myPrint
+//{
+//public:
+//	void operator()(int val)
+//	{
+//		cout << val << " ";
+//	}
+//};
+//
+//void test01()
+//{
+//	vector<int> v1;
+//	vector<int> v2;
+//	for (int i = 0; i < 10; i++) {
+//		v1.push_back(i);
+//		v2.push_back(i + 5);
+//	}
+//
+//	vector<int> vTarget;
+//	//取两个里面较大的值给目标容器开辟空间
+//	vTarget.resize(10);
+//
+//	//返回目标容器的最后一个元素的迭代器地址
+//	cout << "v1与v2的差集为： " << endl;
+//	vector<int>::iterator itEnd =
+//		set_difference(v1.begin(), v1.end(), v2.begin(), v2.end(), vTarget.begin());
+//	for_each(vTarget.begin(), itEnd, myPrint());
+//	cout << endl;
+//
+//
+//	cout << "v2与v1的差集为： " << endl;
+//	itEnd = set_difference(v2.begin(), v2.end(), v1.begin(), v1.end(), vTarget.begin());
+//	for_each(vTarget.begin(), itEnd, myPrint());
+//	cout << endl;
+//}
+//
+//int main() {
+//
+//	test01();
+//
+//	system("pause");
+//
+//	return 0;
+//}
