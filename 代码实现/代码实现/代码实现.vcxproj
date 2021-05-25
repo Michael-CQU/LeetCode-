@@ -20,11 +20,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1310_xorQueries.cpp" />
+    <ClCompile Include="1442_counttriplets.cpp" />
     <ClCompile Include="1734_decoded.cpp" />
     <ClCompile Include="1842_minDays.cpp" />
+    <ClCompile Include="20_有效的括号.cpp" />
+    <ClCompile Include="215_数组中第K个最大元素.cpp" />
     <ClCompile Include="377_combinationsum4.cpp" />
     <ClCompile Include="392_isSubsequence.cpp" />
     <ClCompile Include="421_findMaximunXOR.cpp" />
+    <ClCompile Include="AVLTreeTest.cpp" />
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="cout_out.cpp" />
     <ClCompile Include="Cpp_basics.cpp" />
@@ -48,12 +52,16 @@
     <ClCompile Include="swap.cpp" />
     <ClCompile Include="to_sum.cpp" />
     <ClCompile Include="Vector二维.cpp" />
+    <ClCompile Include="十大排序算法.cpp" />
     <ClCompile Include="异常类illegalParameterValue.cpp" />
+    <ClCompile Include="数据结构测试代码.cpp" />
+    <ClCompile Include="栈进行四则运算.cpp" />
     <ClCompile Include="类.cpp" />
     <ClCompile Include="类currency.cpp" />
     <ClCompile Include="链表复制构造函数.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AVLTree.hpp" />
     <ClInclude Include="circle.h" />
     <ClInclude Include="myArray.hpp" />
     <ClInclude Include="point.h" />
