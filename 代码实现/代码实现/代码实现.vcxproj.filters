@@ -135,6 +135,18 @@
     <ClCompile Include="十大排序算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1190_反转每对括号间的子串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="剑指10_斐波那契数列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="322_零钱兑换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="000000000000.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

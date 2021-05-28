@@ -36,8 +36,8 @@ void binaryInsertionSort(int arr[], int n) {
 		//在正确位置插入复制出来的待插入元素
 		arr[high + 1] = temp;
 	}
-
 }
+
 //希尔排序
 template<typename T>
 void shell_sort(T array[], int length) {
@@ -183,7 +183,7 @@ void MemeryArray(int a[], int n, int b[], int m, int c[])
 	while (j < m)
 		c[k++] = b[j++];
 }
-//归并排序
+//归并排序（递归）
 //将有二个有序数列a[first...mid]和a[mid...last]合并。
 void mergearray(int a[], int first, int mid, int last, int temp[])
 {
@@ -226,6 +226,63 @@ bool MergeSort(int a[], int n)
 		return false;
 	mergesort(a, 0, n - 1, p);
 	delete[] p;
+	return true;
+}
+//归并排序（非递归）
+void merge_array(int arr[], int arr1[], int ls1, int rs1, int n) {//用于合并
+																  //方法一：k从ls1开始
+																  //int i = ls1, j = rs1, k = ls1;
+																  //方法二:注意k必须是从0开始，因为与方法1不同，arr1不再用于保存合并排序后的数据
+	int i = ls1, j = rs1, k = 0;
+	while (i < rs1&&j < n + 1) {
+		if (arr[i] < arr[j]) {
+			arr1[k++] = arr[i++];
+		}
+		else
+			arr1[k++] = arr[j++];
+	}
+	while (i < rs1)
+		arr1[k++] = arr[i++];
+	while (j < n + 1)
+		arr1[k++] = arr[j++];
+	//方法二：每次归并时候，将排序结果传回给数组arr，确保排序后的值在数组arr中
+	{
+		k = 0;
+		while (ls1 <= n)
+			arr[ls1++] = arr1[k++];
+	}
+}
+
+void merge_k(int arr[], int arr1[], int k, int n) {//用于循环进行固定k值后的合并
+	int i = 0;
+	int j;
+	while (i < n - 2 * k + 1) {
+		merge_array(arr, arr1, i, i + k, i + 2 * k - 1);
+		i += 2 * k;
+	}
+	if (i < n - k) {
+		merge_array(arr, arr1, i, i + k, n - 1);
+	}
+	else
+		for (j = i; j < n; j++)
+			arr1[j] = arr[j];
+}
+
+bool mergesort_NR(int arr[], int n) {//用于确定以多大的k值进行合并
+	int k = 1;
+	int *arr1 = new int[n];
+	if (arr == NULL)
+		return false;
+	while (k < n) {
+		merge_k(arr, arr1, k, n);
+		k *= 2;
+		//方法二：注释以下代码
+		//{
+		//	merge_k(arr1, arr, k, n);
+		//	k *= 2;
+		//}
+	}
+	delete[]arr1;
 	return true;
 }
 //基数排序：
@@ -291,26 +348,26 @@ void radixsort(int data[], int n) //基数排序
 	delete[]count;
 }
 
-int main() {
-	int ARR[] = {9,1,5,4,6,7,3,2,5,8};
-	int n = sizeof(ARR) / sizeof(int);
-	cout << "排序前：" << endl;
-	for (int i = 0; i < n; i++) {
-		cout << ARR[i] << ' ';
-	}
-	cout << endl;
-	//insertion_sort(ARR, n);
-	//binaryInsertionSort(ARR, n);
-	//shell_sort(ARR, n);
-	//bubble_sort(ARR, n);
-	//quickSort(0,n-1,ARR);
-	//heap_sort(ARR, n);//方法二
-	headSort(ARR, n);//方法一
-	cout << "排序后：" << endl;
-	for (int i = 0; i < n; i++) {
-		cout << ARR[i] << ' ';
-	}
-	cout << endl;
-	system("pause");
-	return 0;
-}
+//int main() {
+//	int ARR[] = {9,1,5,4,6,7,3,2,5,8};
+//	int n = sizeof(ARR) / sizeof(int);
+//	cout << "排序前：" << endl;
+//	for (int i = 0; i < n; i++) {
+//		cout << ARR[i] << ' ';
+//	}
+//	cout << endl;
+//	//insertion_sort(ARR, n);
+//	//binaryInsertionSort(ARR, n);
+//	//shell_sort(ARR, n);
+//	//bubble_sort(ARR, n);
+//	//quickSort(0,n-1,ARR);
+//	//heap_sort(ARR, n);//方法二
+//	//headSort(ARR, n);//方法一
+//	cout << "排序后：" << endl;
+//	for (int i = 0; i < n; i++) {
+//		cout << ARR[i] << ' ';
+//	}
+//	cout << endl;
+//	system("pause");
+//	return 0;
+//}
