@@ -147,6 +147,9 @@
     <ClCompile Include="000000000000.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="剑指68_二叉搜索树的最近公共祖先.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

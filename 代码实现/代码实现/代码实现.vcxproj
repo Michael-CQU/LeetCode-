@@ -56,6 +56,7 @@
     <ClCompile Include="to_sum.cpp" />
     <ClCompile Include="Vector二维.cpp" />
     <ClCompile Include="剑指10_斐波那契数列.cpp" />
+    <ClCompile Include="剑指68_二叉搜索树的最近公共祖先.cpp" />
     <ClCompile Include="十大排序算法.cpp" />
     <ClCompile Include="异常类illegalParameterValue.cpp" />
     <ClCompile Include="数据结构测试代码.cpp" />
