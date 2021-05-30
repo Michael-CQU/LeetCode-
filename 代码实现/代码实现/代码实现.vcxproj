@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="000000000000.cpp" />
+    <ClCompile Include="练习十大算法.cpp" />
     <ClCompile Include="1190_反转每对括号间的子串.cpp" />
     <ClCompile Include="1310_xorQueries.cpp" />
     <ClCompile Include="1442_counttriplets.cpp" />
@@ -31,6 +31,7 @@
     <ClCompile Include="377_combinationsum4.cpp" />
     <ClCompile Include="392_isSubsequence.cpp" />
     <ClCompile Include="421_findMaximunXOR.cpp" />
+    <ClCompile Include="8._字符串转换整数 (atoi).cpp" />
     <ClCompile Include="AVLTreeTest.cpp" />
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="cout_out.cpp" />
@@ -54,6 +55,7 @@
     <ClCompile Include="sortcolor.cpp" />
     <ClCompile Include="swap.cpp" />
     <ClCompile Include="to_sum.cpp" />
+    <ClCompile Include="unordered_map操作.cpp" />
     <ClCompile Include="Vector二维.cpp" />
     <ClCompile Include="剑指10_斐波那契数列.cpp" />
     <ClCompile Include="剑指68_二叉搜索树的最近公共祖先.cpp" />

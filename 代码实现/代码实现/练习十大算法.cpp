@@ -125,53 +125,19 @@ void quicksort1(int arr[],int left,int right) {
 	quicksort1(arr, i + 1, right);
 }
 
-struct Range {
-	int start, end;
-	Range(int s = 0, int e = 0) {
-		start = s, end = e;
-	}
-};
-template <typename T> // 整數或浮點數皆可使用,若要使用物件(class)時必須設定"小於"(<)、"大於"(>)、"不小於"(>=)的運算子功能
-void quick_sort2(T arr[], const int len) {
-	if (len <= 0)
-		return; // 避免len等於負值時宣告堆疊陣列當機
-				// r[]模擬堆疊,p為數量,r[p++]為push,r[--p]為pop且取得元素
-	Range r[len];
-	int p = 0;
-	r[p++] = Range(0, len - 1);
-	while (p) {
-		Range range = r[--p];
-		if (range.start >= range.end)
-			continue;
-		T mid = arr[range.start];
-		int left = range.start, right = range.end - 1;
-		while (left < right) {
-			while (arr[right] >= mid && left < right) right--;
-			while (arr[left] <= mid && left < right) left++;
-			std::swap(arr[left], arr[right]);
-		}
-		//if (arr[left] >= arr[range.end])
-		//	std::swap(arr[left], arr[range.end]);
-		//else
-		//	left++;
-		r[p++] = Range(range.start, left);
-		r[p++] = Range(left + 1, range.end);
-	}
-}
-
-int main() {
-	int arr[] = {9,1,5,4,6,7,3,2,5,8};
-	//int arr[] = {1,3,5,7,9,2,4,6,8 };
-	//int arr1[9];
-	int n = sizeof(arr) / sizeof(int);
-	//merge_1(arr,arr1,0,5,8);
-	//mergesort_NR(arr, n);
-	//quicksort1(arr,0,n);
-	quick_sort2(arr,n);
-	for (int i = 0; i < n; i++) {
-		cout << arr[i] << " ";
-	}
-	cout << endl;
-	system("pause");
-	return 0;
-}
+//int main() {
+//	int arr[] = {9,1,5,4,6,7,3,2,5,8};
+//	//int arr[] = {1,3,5,7,9,2,4,6,8 };
+//	//int arr1[9];
+//	int n = sizeof(arr) / sizeof(int);
+//	//merge_1(arr,arr1,0,5,8);
+//	//mergesort_NR(arr, n);
+//	//quicksort1(arr,0,n);
+//	quick_sort2(arr,n);
+//	for (int i = 0; i < n; i++) {
+//		cout << arr[i] << " ";
+//	}
+//	cout << endl;
+//	system("pause");
+//	return 0;
+//}

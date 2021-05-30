@@ -144,10 +144,16 @@
     <ClCompile Include="322_零钱兑换.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="000000000000.cpp">
+    <ClCompile Include="剑指68_二叉搜索树的最近公共祖先.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="剑指68_二叉搜索树的最近公共祖先.cpp">
+    <ClCompile Include="8._字符串转换整数 (atoi).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="unordered_map操作.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="练习十大算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
