@@ -156,6 +156,15 @@
     <ClCompile Include="练习十大算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="105_从前序与中序遍历序列构造二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="建立二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="450_删除二叉搜索树中的节点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
