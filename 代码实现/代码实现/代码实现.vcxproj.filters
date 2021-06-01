@@ -165,6 +165,12 @@
     <ClCompile Include="450_删除二叉搜索树中的节点.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="106_从中序与后序遍历序列构造二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="146._LRU缓存机制.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

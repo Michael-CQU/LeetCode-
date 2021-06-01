@@ -20,6 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="105_从前序与中序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="106_从中序与后序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="146._LRU缓存机制.cpp" />
     <ClCompile Include="450_删除二叉搜索树中的节点.cpp" />
     <ClCompile Include="建立二叉树.cpp" />
     <ClCompile Include="练习十大算法.cpp" />

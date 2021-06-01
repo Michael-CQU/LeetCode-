@@ -103,14 +103,14 @@ void levelordertraver1(TreeNode* result) {
 		cout << endl;
 	}
 }
-int main() {
-	int a[] = { 30,5,40,2,-1,35,80,-1,-1,-1,-1,32,-1,60,85,-1,-1,-1,-1,-1,-1,-1,-1,31,33 };
-	TreeNode *root = NULL;
-	root = creatBTree(a, 0, sizeof(a) / sizeof(a[0]));
-	Solution s;
-	TreeNode* result;
-	result = s.deleteNode(root,40);
-	levelordertraver1(result);
-	system("pause");
-	return 0;
-}
+//int main() {
+//	int a[] = { 30,5,40,2,-1,35,80,-1,-1,-1,-1,32,-1,60,85,-1,-1,-1,-1,-1,-1,-1,-1,31,33 };
+//	TreeNode *root = NULL;
+//	root = creatBTree(a, 0, sizeof(a) / sizeof(a[0]));
+//	Solution s;
+//	TreeNode* result;
+//	result = s.deleteNode(root,40);
+//	levelordertraver1(result);
+//	system("pause");
+//	return 0;
+//}
