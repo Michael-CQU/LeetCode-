@@ -12,6 +12,7 @@ struct TreeNode {
 
 
 class Solution {
+	int count = 0;
 public:
 	int getMin(struct TreeNode* node) {
 		// BST 最左边的就是最小的
@@ -21,7 +22,7 @@ public:
 		return node->val;
 	}
 
-	struct TreeNode* deleteNode(struct TreeNode* root, int key) {
+	TreeNode* deleteNode(TreeNode* root, int key) {
 
 
 		if (NULL == root)
@@ -62,13 +63,23 @@ public:
 
 		return root;
 	}
+
+	TreeNode*deleteTree(TreeNode* root) {
+		if (root == NULL)
+			return nullptr;
+		deleteTree(root->left);
+		deleteTree(root->right);
+		delete root;
+		count++;
+		cout << count << endl;
+	}
 };
 
 TreeNode * creatBTree(int data[], int index, int n)
 {
 	TreeNode * pNode = NULL;
 
-	//if (index < n && data[index] != -1)//数组中-1 表示该节点为空
+	//if (index < n && data[index] != -1)//数组中-1 表示该节点为空(此方法将空结点跳过)
 	if (index < n)//数组中-1 表示该节点为空
 	{
 		pNode = new TreeNode;
@@ -111,6 +122,7 @@ void levelordertraver1(TreeNode* result) {
 //	TreeNode* result;
 //	result = s.deleteNode(root,40);
 //	levelordertraver1(result);
+//	TreeNode* deletetree = s.deleteTree(result);
 //	system("pause");
 //	return 0;
 //}

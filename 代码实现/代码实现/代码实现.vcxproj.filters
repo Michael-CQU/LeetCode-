@@ -171,6 +171,18 @@
     <ClCompile Include="146._LRU缓存机制.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="new 对象加括号和不加括号的区别.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3_无重复字符的最长子串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="76_最小覆盖子串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="239_滑动窗口最大值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

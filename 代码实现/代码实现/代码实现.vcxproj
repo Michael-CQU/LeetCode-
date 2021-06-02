@@ -22,7 +22,11 @@
     <ClCompile Include="105_从前序与中序遍历序列构造二叉树.cpp" />
     <ClCompile Include="106_从中序与后序遍历序列构造二叉树.cpp" />
     <ClCompile Include="146._LRU缓存机制.cpp" />
+    <ClCompile Include="239_滑动窗口最大值.cpp" />
+    <ClCompile Include="3_无重复字符的最长子串.cpp" />
     <ClCompile Include="450_删除二叉搜索树中的节点.cpp" />
+    <ClCompile Include="76_最小覆盖子串.cpp" />
+    <ClCompile Include="new 对象加括号和不加括号的区别.cpp" />
     <ClCompile Include="建立二叉树.cpp" />
     <ClCompile Include="练习十大算法.cpp" />
     <ClCompile Include="1190_反转每对括号间的子串.cpp" />
