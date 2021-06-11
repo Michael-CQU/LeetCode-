@@ -1,11 +1,11 @@
-//#include<iostream>
-//#include <string>
-//using namespace std;
+#include<iostream>
+#include <string>
+using namespace std;
 //class Solution {
 //public:
 //	int myAtoi(string s) {
 //		string res;
-//		int result = 0,i = 0;
+//		int result = 0, i = 0;
 //		bool symble = true;
 //		{
 //			while (s[i] == ' ')
@@ -22,7 +22,7 @@
 //		if (symble == false) {
 //			int j = 0;
 //			for (int j = 0; j < res.length(); j++) {
-//				if (result > INT_MIN / 10||(result == INT_MIN/10&&(res[j]-'0'<9)))
+//				if (result > INT_MIN / 10 || (result == INT_MIN / 10 && (res[j] - '0' < 9)))
 //					result = result * 10 - (res[j] - '0');
 //				else
 //					return INT_MIN;
@@ -31,7 +31,7 @@
 //		else {
 //			int j = 0;
 //			for (int j = 0; j < res.length(); j++) {
-//				if (result < INT_MAX / 10||(result == INT_MAX/10&&(res[j]-'0'<8)))
+//				if (result < INT_MAX / 10 || (result == INT_MAX / 10 && (res[j] - '0' < 8)))
 //					result = result * 10 + (res[j] - '0');
 //				else
 //					return INT_MAX;
@@ -40,7 +40,7 @@
 //		return result;
 //	}
 //};
-//
+
 //int main() {
 //	string test = "-91283472332";
 //	Solution s;

@@ -3,7 +3,7 @@
 #include <queue>
 using namespace std;
 //优先使用方法三
-//方法一：
+////方法一：
 ////二叉树结构
 //typedef struct BiTNode {
 //	char data;
@@ -54,8 +54,8 @@ using namespace std;
 //{
 //	BiTree T;
 //	char* ch;
-//	char case1[] = { "ABC##DE#G##F###" };//用于创建二叉树的字符数组
-//
+//	//char case1[] = { "ABC##DE#G##F###" };//用于创建二叉树的字符数组
+//	char case1[] = { "356##274198" };//用于创建二叉树的字符数组
 //	ch = case1;
 //	CreateBiTree(T, ch);
 //
@@ -126,12 +126,16 @@ BSTreeNode * creatBTree(int data[], int index, int n)
 {
 	BSTreeNode * pNode = NULL;
 
-	if (index < n && data[index] != -1)//数组中-1 表示该节点为空
+	//if (index < n && data[index] != -1)//数组中-1 表示该节点为空
+	if (index < n )//数组中-1 表示该节点为空
 	{
 		//pNode = (BSTreeNode *)malloc(sizeof(BSTreeNode));
 		pNode = new BSTreeNode;
-		if (pNode == NULL)
-			return NULL;
+		//if (pNode == NULL)
+		//	return NULL;
+		//if (data[index] == -1) {
+		//	return nullptr;
+		//}
 		pNode->m_nValue = data[index];
 		pNode->m_pLeft = creatBTree(data, 2 * index + 1, n);//将二叉树按照层序遍历, 依次标序号, 从0开始
 		pNode->m_pRight = creatBTree(data, 2 * index + 2, n);
@@ -147,7 +151,7 @@ void levelordertraver(BSTreeNode* result) {
 		while (!que.empty()) {
 			tem = que.front();
 			que.pop();
-			if (tem->m_nValue != '#')
+			if (tem->m_nValue != -1)
 				cout << tem->m_nValue << " ";
 			else
 				cout << "null" << " ";
@@ -161,13 +165,29 @@ void levelordertraver(BSTreeNode* result) {
 		cout << endl;
 	}
 }
+void preorder1(BSTreeNode* root) {
+	if (root) {
+		cout << root->m_nValue << " ";
+		preorder1(root->m_pLeft);
+		preorder1(root->m_pRight);
+	}
+}
+void inorder1(BSTreeNode* root) {
+	if (root) {
+		inorder1(root->m_pLeft);
+		cout << root->m_nValue << " ";
+		inorder1(root->m_pRight);
+	}
+}
 //int main()
 //{
-//	int a[] = { 3,4,5,8,-1,9,10 };
+//	int a[] = { 3,5,1,6,2,10,8,-1,-1,7,4 };
+//	//int a[] = { 3,9,20,-1,-1,15,7 };
 //	BSTreeNode *root = NULL;
-//	root = creatBTree(a, 0,sizeof(a) / sizeof(a[0]));
-//
-//	levelordertraver(root);
+//	root = creatBTree(a, 0, sizeof(a) / sizeof(a[0]));
+//	//preorder1(root);
+//	inorder1(root);
+//	//levelordertraver(root);
 //	system("pause");
 //	return 0;
 //}
