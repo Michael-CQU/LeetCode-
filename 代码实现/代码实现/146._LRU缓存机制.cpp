@@ -45,110 +45,216 @@ put£ºÍ¬getÒ»ÑùÊ×ÏÈÓÃµü´úÆ÷ÔÚ¹şÏ£±íÖĞÕÒÊÇ·ñ´æÔÚ¹Ø¼ü×Ökey£¬Èç¹û´æÔÚ£¬¾Í½«¸ÃÖµ·Åµ½Á
 //};
 
 //·½·¨¶ş£º(ÊÖ¶¯ÊµÏÖË«ÏòÁ´±í)
-struct DLinkedNode {
-	int key, value;
-	DLinkedNode* prev;
-	DLinkedNode* next;
-	DLinkedNode() : key(0), value(0), prev(nullptr), next(nullptr) {}
-	DLinkedNode(int _key, int _value) : key(_key), value(_value), prev(nullptr), next(nullptr) {}
+//struct DLinkedNode {
+//	int key, value;
+//	DLinkedNode* prev;
+//	DLinkedNode* next;
+//	DLinkedNode() : key(0), value(0), prev(nullptr), next(nullptr) {}
+//	DLinkedNode(int _key, int _value) : key(_key), value(_value), prev(nullptr), next(nullptr) {}
+//};
+//
+//class LRUCache {
+//private:
+//	unordered_map<int, DLinkedNode*> cache;
+//	DLinkedNode* head;
+//	DLinkedNode* tail;
+//	int size;
+//	int capacity;
+//
+//public:
+//	LRUCache(int _capacity) : capacity(_capacity), size(0) {
+//		// Ê¹ÓÃÎ±Í·²¿ºÍÎ±Î²²¿½Úµã
+//		head = new DLinkedNode();
+//		tail = new DLinkedNode();
+//		head->next = tail;
+//		tail->prev = head;
+//	}
+//
+//	int get(int key) {
+//		if (!cache.count(key)) {
+//			return -1;
+//		}
+//		// Èç¹û key ´æÔÚ£¬ÏÈÍ¨¹ı¹şÏ£±í¶¨Î»£¬ÔÙÒÆµ½Í·²¿
+//		DLinkedNode* node = cache[key];
+//		moveToHead(node);
+//		return node->value;
+//	}
+//
+//	void put(int key, int value) {
+//		if (!cache.count(key)) {
+//			// Èç¹û key ²»´æÔÚ£¬´´½¨Ò»¸öĞÂµÄ½Úµã
+//			DLinkedNode* node = new DLinkedNode(key, value);
+//			// Ìí¼Ó½ø¹şÏ£±í
+//			cache[key] = node;
+//			// Ìí¼ÓÖÁË«ÏòÁ´±íµÄÍ·²¿
+//			addToHead(node);
+//			++size;
+//			if (size > capacity) {
+//				// Èç¹û³¬³öÈİÁ¿£¬É¾³ıË«ÏòÁ´±íµÄÎ²²¿½Úµã
+//				DLinkedNode* removed = removeTail();
+//				// É¾³ı¹şÏ£±íÖĞ¶ÔÓ¦µÄÏî
+//				cache.erase(removed->key);
+//				// ·ÀÖ¹ÄÚ´æĞ¹Â©
+//				delete removed;
+//				--size;
+//			}
+//		}
+//		else {
+//			// Èç¹û key ´æÔÚ£¬ÏÈÍ¨¹ı¹şÏ£±í¶¨Î»£¬ÔÙĞŞ¸Ä value£¬²¢ÒÆµ½Í·²¿
+//			DLinkedNode* node = cache[key];
+//			node->value = value;
+//			moveToHead(node);
+//		}
+//	}
+//
+//	void addToHead(DLinkedNode* node) {
+//		node->prev = head;
+//		node->next = head->next;
+//		head->next->prev = node;
+//		head->next = node;
+//	}
+//
+//	void removeNode(DLinkedNode* node) {
+//		node->prev->next = node->next;
+//		node->next->prev = node->prev;
+//	}
+//
+//	void moveToHead(DLinkedNode* node) {
+//		removeNode(node);
+//		addToHead(node);
+//	}
+//
+//	DLinkedNode* removeTail() {
+//		DLinkedNode* node = tail->prev;
+//		removeNode(node);
+//		return node;
+//	}
+//};
+
+
+
+////·½·¨Èı£º×îºÃÀí½âµÄ·½Ê½£¨Ê×Ñ¡£©
+//class LRUCache {
+//	unordered_map<int, pair<int, int>> mp;
+//	list<pair<int, int>> cap;
+//	int size;
+//public:
+//	LRUCache(int capacity) {
+//		size = capacity;
+//	}
+//
+//	int get(int key) {
+//		if (mp.find(key) != mp.end()) {
+//			int val = mp[key].second;
+//			cap.remove(mp[key]);
+//			put(key, val);
+//			return val;
+//		}
+//		return -1;
+//	}
+//
+//	void put(int key, int value) {
+//		if (mp.find(key) != mp.end()) {
+//			cap.remove(mp[key]);
+//			mp.erase(key);
+//			put(key, value);//×¢ÒâÕâÀïµÄË³ĞòºÜÖØÒª£¬Ò»¶¨ÒªÏÈ°Ñcap.remove(mp[key]);ºÍmp.erase(key);Ö´ĞĞÍêÔÙÖ´ĞĞput²Ù×÷£¬É¾³ıÊÇÒ»¸öÔ­×Ó²Ù×÷
+//			mp.insert(make_pair(key, make_pair(key, value)));
+//		}
+//		else {
+//			cap.emplace_front(key, value);
+//			mp.insert(make_pair(key, make_pair(key, value)));
+//		}
+//		if (cap.size() > size) {
+//			mp.erase(cap.back().first);
+//			cap.pop_back();
+//		}
+//	}
+//};
+
+
+//·½·¨£º×Ô¼ºÊµÏÖÁ´±í½á¹¹£¨ÖØÒª£¬±ØĞëÊìÁ·ÕÆÎÕ£©
+struct LinkedNode {
+	int key, val;
+	LinkedNode* prev;
+	LinkedNode* next;
+	LinkedNode() : key(0), val(0), prev(nullptr), next(nullptr) {}
+	LinkedNode(int key, int value) :key(key), val(value), prev(nullptr), next(nullptr) {}
 };
-
 class LRUCache {
-private:
-	unordered_map<int, DLinkedNode*> cache;
-	DLinkedNode* head;
-	DLinkedNode* tail;
-	int size;
-	int capacity;
-
+	unordered_map<int, LinkedNode*> mp;
+	LinkedNode* head;
+	LinkedNode* tail;
+	int number = 0;
+	int size = 0;
 public:
-	LRUCache(int _capacity) : capacity(_capacity), size(0) {
-		// Ê¹ÓÃÎ±Í·²¿ºÍÎ±Î²²¿½Úµã
-		head = new DLinkedNode();
-		tail = new DLinkedNode();
+	LRUCache(int capacity) {
+		size = capacity;
+		head = new LinkedNode();
+		tail = new LinkedNode();
 		head->next = tail;
 		tail->prev = head;
 	}
 
 	int get(int key) {
-		if (!cache.count(key)) {
-			return -1;
+		if (mp.find(key) != mp.end()) {
+			LinkedNode* node = mp[key];
+			remove(node);
+			addhead(node);
+			return node->val;
 		}
-		// Èç¹û key ´æÔÚ£¬ÏÈÍ¨¹ı¹şÏ£±í¶¨Î»£¬ÔÙÒÆµ½Í·²¿
-		DLinkedNode* node = cache[key];
-		moveToHead(node);
-		return node->value;
+		return -1;
 	}
 
 	void put(int key, int value) {
-		if (!cache.count(key)) {
-			// Èç¹û key ²»´æÔÚ£¬´´½¨Ò»¸öĞÂµÄ½Úµã
-			DLinkedNode* node = new DLinkedNode(key, value);
-			// Ìí¼Ó½ø¹şÏ£±í
-			cache[key] = node;
-			// Ìí¼ÓÖÁË«ÏòÁ´±íµÄÍ·²¿
-			addToHead(node);
-			++size;
-			if (size > capacity) {
-				// Èç¹û³¬³öÈİÁ¿£¬É¾³ıË«ÏòÁ´±íµÄÎ²²¿½Úµã
-				DLinkedNode* removed = removeTail();
-				// É¾³ı¹şÏ£±íÖĞ¶ÔÓ¦µÄÏî
-				cache.erase(removed->key);
-				// ·ÀÖ¹ÄÚ´æĞ¹Â©
-				delete removed;
-				--size;
-			}
+		if (mp.find(key) != mp.end()) {
+			LinkedNode* node = mp[key];
+			node->val = value;
+			remove(node);
+			addhead(node);
 		}
 		else {
-			// Èç¹û key ´æÔÚ£¬ÏÈÍ¨¹ı¹şÏ£±í¶¨Î»£¬ÔÙĞŞ¸Ä value£¬²¢ÒÆµ½Í·²¿
-			DLinkedNode* node = cache[key];
-			node->value = value;
-			moveToHead(node);
+			LinkedNode* node = new LinkedNode(key, value);
+			addhead(node);
+			mp.insert(make_pair(key, node));
+			number++;
+		}
+		if (number > size) {
+			LinkedNode* node = tail->prev;
+			remove(node);
+			number--;
+			mp.erase(node->key);
+			delete node;
 		}
 	}
-
-	void addToHead(DLinkedNode* node) {
+	void remove(LinkedNode* node) {
+		node->prev->next = node->next;
+		node->next->prev = node->prev;
+	}
+	void addhead(LinkedNode* node) {
 		node->prev = head;
 		node->next = head->next;
 		head->next->prev = node;
 		head->next = node;
 	}
-
-	void removeNode(DLinkedNode* node) {
-		node->prev->next = node->next;
-		node->next->prev = node->prev;
-	}
-
-	void moveToHead(DLinkedNode* node) {
-		removeNode(node);
-		addToHead(node);
-	}
-
-	DLinkedNode* removeTail() {
-		DLinkedNode* node = tail->prev;
-		removeNode(node);
-		return node;
-	}
 };
-
 //int main() {
 //	int capacity = 2;
 //	LRUCache* obj = new LRUCache(capacity);
 //
-//	obj->put(1, 1);
+//	obj->put(2, 1);
 //	obj->put(2, 2);
-//	int param_1 = obj->get(1);
+//	int param_1 = obj->get(2);
 //	cout << "param_1:" << param_1 << endl;
-//	obj->put(3, 3);
-//	int param_2 = obj->get(2);
-//	cout << "param_2:" << param_2 << endl;
-//	obj->put(4, 4);
-//	int param_3 = obj->get(1);
+//	obj->put(1, 1);
+//	//int param_2 = obj->get(2);
+//	//cout << "param_2:" << param_2 << endl;
+//	obj->put(4, 1);
+//	int param_3 = obj->get(2);
 //	cout << "param_3:" << param_3 << endl;
-//	int param_4 = obj->get(3);
-//	cout << "param_4:" << param_4 << endl;
-//	int param_5 = obj->get(4);
-//	cout << "param_5:" << param_5 << endl;
+//	//int param_4 = obj->get(3);
+//	//cout << "param_4:" << param_4 << endl;
+//	//int param_5 = obj->get(4);
+//	//cout << "param_5:" << param_5 << endl;
 //	system("pause");
 //	return 0;
 //}

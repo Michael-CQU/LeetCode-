@@ -1,12 +1,12 @@
-//#include <iostream>
-//#include <unordered_set>
-//using namespace std;
-//struct ListNode {
-//	int val;
-//	ListNode *next;
-//	ListNode(int x) : val(x), next(NULL) {}
-//};
-//
+#include <iostream>
+#include <unordered_set>
+using namespace std;
+struct ListNode {
+	int val;
+	ListNode *next;
+	ListNode(int x) : val(x), next(NULL) {}
+};
+
 //class Solution {
 //public:
 //	ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -26,7 +26,22 @@
 //		return nullptr;
 //	}
 //};
-//
+class Solution {
+public:
+	ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+		ListNode* ptra = headA;
+		ListNode* ptrb = headB;
+		while (ptra != ptrb) {
+			ptra = ptra->next;
+			ptrb = ptrb->next;
+			if (ptra == nullptr)
+				ptra = headB;
+			if (ptrb == nullptr)
+				ptrb = headA;
+		}
+		return ptra;
+	}
+};
 //int main() {
 //	ListNode* A = new ListNode(4);
 //	ListNode* B = new ListNode(1);
@@ -39,7 +54,7 @@
 //	D->next = E;
 //
 //	ListNode* AA = new ListNode(5);
-//	ListNode* BB = new ListNode(6);
+//	ListNode* BB = new ListNode(0);
 //	ListNode* CC = new ListNode(1);
 //	ListNode* DD = new ListNode(8);
 //

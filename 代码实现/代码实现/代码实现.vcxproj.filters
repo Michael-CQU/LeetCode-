@@ -258,6 +258,42 @@
     <ClCompile Include="210_课程表2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="328_奇偶链表cpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="234_回文链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="205_同构字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="387_字符串中的第一个唯一字符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="priority_queue对自定义数据排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="347_前k个高频元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="394_字符串解码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客LRU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="牛客练习考试.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="测试线程.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25_K个一组反转链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15_三数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

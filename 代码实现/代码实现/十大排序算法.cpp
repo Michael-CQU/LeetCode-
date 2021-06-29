@@ -7,7 +7,7 @@ void insertion_sort(int arr[], int len) {
 	for (int i = 1; i < len; i++) {
 		int key = arr[i];
 		int j = i - 1;
-		while ((j >= 0) && (key < arr[j])) {
+		while ((j >= 0) && (key < arr[j])) {//移动元素
 			arr[j + 1] = arr[j];
 			j--;
 		}
@@ -74,7 +74,7 @@ void quickSort(int left, int right, int arr[])
 	base = arr[left];  //取最左边的数为基准数
 	while (i < j)
 	{
-		while (arr[j] >= base && i < j)//！！！注意：如果pivot值从最左边取，则一定要先从j--开始，再i++。顺序一定不能反
+		while (arr[j] >= base && i < j)//！！！注意：如果pivot值从最左边取，则一定要先从j--开始，再i++。顺序一定不能反。注意等于号一定要写上，不然逻辑会有错误，和pivot相等的值就会和pivot无法挨在一起
 			j--;
 		while (arr[i] <= base && i < j)//如果要从大到小排列，则改为arr[i] >= base
 			i++;
@@ -363,6 +363,8 @@ void radixsort(int data[], int n) //基数排序
 //	//quickSort(0,n-1,ARR);
 //	//heap_sort(ARR, n);//方法二
 //	//headSort(ARR, n);//方法一
+//	MergeSort(ARR, n);
+//
 //	cout << "排序后：" << endl;
 //	for (int i = 0; i < n; i++) {
 //		cout << ARR[i] << ' ';
