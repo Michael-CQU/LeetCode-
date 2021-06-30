@@ -12,17 +12,23 @@ struct TreeNode {
 class Solution {
 public:
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-		if (root == nullptr)
-			return nullptr;
+		//递归终止条件：1.当越过叶节点，则直接返回 nullnull ；2.当 rootroot 等于 p, qp, q ，则直接返回 rootroot ；
+		if (root == NULL)
+			return NULL;
 		if (root == p || root == q)
 			return root;
+		//递归（后序遍历，为什么要后续遍历：由于需要先知道左右子树的情况，然后决定向上返回什么。）
 		TreeNode* left = lowestCommonAncestor(root->left, p, q);
 		TreeNode* right = lowestCommonAncestor(root->right, p, q);
-		if (left == nullptr)
+		//向上返回值
+		if (left == NULL)
 			return right;
-		if (right == nullptr)
+		if (right == NULL)
 			return left;
-		return root;//只会调用一次
+		if (left && right) // p和q在两侧
+			return root;
+
+		return NULL; // 必须有返回值
 	}
 };
 TreeNode* creattree(int test[],int index,int n) {

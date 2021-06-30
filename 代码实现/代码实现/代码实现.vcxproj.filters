@@ -13,11 +13,14 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\剑指offer">
+      <UniqueIdentifier>{a9668529-c9fa-425e-ba6d-31846118edff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Leetcode">
+      <UniqueIdentifier>{3df71514-21a5-4423-ac67-9558f72e896e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="377_combinationsum4.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="exclusiveOR_xor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -37,9 +40,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="类.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="392_isSubsequence.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="cout_out.cpp">
@@ -78,12 +78,6 @@
     <ClCompile Include="链表复制构造函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1842_minDays.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="7_intreverse.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="sizeof_variable.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -93,34 +87,16 @@
     <ClCompile Include="Cpp_basics.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1734_decoded.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="1310_xorQueries.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="point.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="circle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="421_findMaximunXOR.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Cpp_Improve.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="myArray.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="1442_counttriplets.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="20_有效的括号.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="215_数组中第K个最大元素.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="数据结构测试代码.cpp">
@@ -135,52 +111,16 @@
     <ClCompile Include="十大排序算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1190_反转每对括号间的子串.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="剑指10_斐波那契数列.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="322_零钱兑换.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="剑指68_二叉搜索树的最近公共祖先.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="8._字符串转换整数 (atoi).cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="unordered_map操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="练习十大算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="105_从前序与中序遍历序列构造二叉树.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="建立二叉树.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="450_删除二叉搜索树中的节点.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="106_从中序与后序遍历序列构造二叉树.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="146._LRU缓存机制.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="new 对象加括号和不加括号的区别.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="3_无重复字符的最长子串.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="76_最小覆盖子串.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="239_滑动窗口最大值.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="nextgreatelement.cpp">
@@ -189,94 +129,10 @@
     <ClCompile Include="移动构造.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="160_相交链表.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="剑指_59_队列最大值.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="203_移除链表元素.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="673_最长递增子序列个数.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="5_最长回文子串.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="121_股票买卖问题.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="72_编辑距离.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="44_通配符匹配.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="剑指46_把数字翻译成字符串.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="剑指48_最长不含重复字符的子字符串cpp.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="剑指68_2_二叉树的最近公共祖先.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="剑指33_二叉搜索树的后序遍历序列.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="46_全排列.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="22_括号生成.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="78_子集.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="90_子集2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="93_复原IP地址.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="79_单词搜索.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="200_岛屿数量.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="剑指13_机器人的运动范围.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="二叉树前中后序遍历非递归实现.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="429_N叉树的层序遍历.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="210_课程表2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="328_奇偶链表cpp.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="234_回文链表.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="205_同构字符串.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="387_字符串中的第一个唯一字符.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="priority_queue对自定义数据排序.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="347_前k个高频元素.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="394_字符串解码.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="牛客LRU.cpp">
@@ -288,11 +144,176 @@
     <ClCompile Include="测试线程.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="25_K个一组反转链表.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="3_无重复字符的最长子串.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="5_最长回文子串.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="7_intreverse.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="8._字符串转换整数 (atoi).cpp">
+      <Filter>源文件\Leetcode</Filter>
     </ClCompile>
     <ClCompile Include="15_三数之和.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="1842_minDays.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="20_有效的括号.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="22_括号生成.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="44_通配符匹配.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="25_K个一组反转链表.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="46_全排列.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="72_编辑距离.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="76_最小覆盖子串.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="78_子集.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="79_单词搜索.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="90_子集2.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="93_复原IP地址.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="105_从前序与中序遍历序列构造二叉树.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="106_从中序与后序遍历序列构造二叉树.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="121_股票买卖问题.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="146._LRU缓存机制.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="160_相交链表.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="200_岛屿数量.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="203_移除链表元素.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="205_同构字符串.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="210_课程表2.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="215_数组中第K个最大元素.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="234_回文链表.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="239_滑动窗口最大值.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="322_零钱兑换.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="328_奇偶链表cpp.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="347_前k个高频元素.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="377_combinationsum4.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="387_字符串中的第一个唯一字符.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="392_isSubsequence.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="394_字符串解码.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="421_findMaximunXOR.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="429_N叉树的层序遍历.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="673_最长递增子序列个数.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="450_删除二叉搜索树中的节点.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="1190_反转每对括号间的子串.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="1310_xorQueries.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="1442_counttriplets.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="1734_decoded.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="38_字符串的排列.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="54_二叉搜索树的第k大节点.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="59_队列最大值.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="10_斐波那契数列.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="13_机器人的运动范围.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="33_二叉搜索树的后序遍历序列.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="37_序列化二叉树.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="46_把数字翻译成字符串.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="48_最长不含重复字符的子字符串cpp.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="68_2_二叉树的最近公共祖先.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="68_二叉搜索树的最近公共祖先.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="55_1_二叉树的最大深度.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="55_2_平衡二叉树.cpp">
+      <Filter>源文件\剑指offer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -186,8 +186,8 @@ void inorder1(BSTreeNode* root) {
 //	BSTreeNode *root = NULL;
 //	root = creatBTree(a, 0, sizeof(a) / sizeof(a[0]));
 //	//preorder1(root);
-//	inorder1(root);
-//	//levelordertraver(root);
+//	//inorder1(root);
+//	levelordertraver(root);
 //	system("pause");
 //	return 0;
 //}
