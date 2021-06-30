@@ -315,6 +315,9 @@
     <ClCompile Include="55_2_平衡二叉树.cpp">
       <Filter>源文件\剑指offer</Filter>
     </ClCompile>
+    <ClCompile Include="51_数组中的逆序对.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

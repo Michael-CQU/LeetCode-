@@ -25,6 +25,7 @@
     <ClCompile Include="25_K个一组反转链表.cpp" />
     <ClCompile Include="37_序列化二叉树.cpp" />
     <ClCompile Include="38_字符串的排列.cpp" />
+    <ClCompile Include="51_数组中的逆序对.cpp" />
     <ClCompile Include="54_二叉搜索树的第k大节点.cpp" />
     <ClCompile Include="55_1_二叉树的最大深度.cpp" />
     <ClCompile Include="55_2_平衡二叉树.cpp" />
