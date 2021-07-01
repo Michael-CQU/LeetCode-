@@ -3,7 +3,7 @@ using namespace std;
 class Solution {
 public:
 	int myquicksort(vector<int>& arr,int left,int right) {
-		if (left > right)return 0;
+		if (left > right)return left;
 		int pivot = arr[left];
 		int i = left, j = right;
 		while (i < j) {
@@ -37,14 +37,14 @@ public:
 	}
 };
 
-int main() {
-	vector<int> test = { 0,0,2,3,2,1,1,2,0,4 };
-	Solution s;
-	vector<int> ans = s.getLeastNumbers(test, 10);
-	for (int i : ans) {
-		cout << i << " ";
-	}
-	cout << endl;
-	system("pause");
-	return 0;
-}
+//int main() {
+//	vector<int> test = { 0,0,2,3,2,1,1,2,0,4 };
+//	Solution s;
+//	vector<int> ans = s.getLeastNumbers(test, 10);
+//	for (int i : ans) {
+//		cout << i << " ";
+//	}
+//	cout << endl;
+//	system("pause");
+//	return 0;
+//}
