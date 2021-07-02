@@ -366,6 +366,9 @@
     <ClCompile Include="57_和为s的两个数字.cpp">
       <Filter>源文件\剑指offer</Filter>
     </ClCompile>
+    <ClCompile Include="148_排序链表.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
