@@ -402,6 +402,9 @@
     <ClCompile Include="14_2_剪绳子.cpp">
       <Filter>源文件\剑指offer</Filter>
     </ClCompile>
+    <ClCompile Include="57_2_和为 s 的连续正数序列.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
