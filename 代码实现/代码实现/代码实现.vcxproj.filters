@@ -369,6 +369,39 @@
     <ClCompile Include="148_排序链表.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="31_下一个排列.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="58_翻转单词顺序.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="22_链表中倒数第 k 个节点.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="25_合并两个排序的链表.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="52_两个链表的第一个公共节点.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="56_1_数组中数字出现的次数.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="56_2_数组中数字出现的次数.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="65_不用加减乘除做加法.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="477_汉明距离和.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="14_1剪绳子.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
+    <ClCompile Include="14_2_剪绳子.cpp">
+      <Filter>源文件\剑指offer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

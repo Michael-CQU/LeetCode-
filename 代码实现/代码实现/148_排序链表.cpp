@@ -45,24 +45,24 @@ public:
 	}
 };
 
-int main() {
-	ListNode* A = new ListNode(4);
-	ListNode* B = new ListNode(2);
-	ListNode* C = new ListNode(1);
-	ListNode* D = new ListNode(3);
-	ListNode* E = new ListNode(5);
-	ListNode* F = new ListNode(6);
-	A->next = B;
-	B->next = C;
-	C->next = D;
-	D->next = E;
-	E->next = F;
-	Solution s;
-	ListNode* res = s.sortList(A);
-	while (res) {
-		cout << res->val << endl;
-		res = res->next;
-	}
-	system("pause");
-	return 0;
-}
+//int main() {
+//	ListNode* A = new ListNode(4);
+//	ListNode* B = new ListNode(2);
+//	ListNode* C = new ListNode(1);
+//	ListNode* D = new ListNode(3);
+//	ListNode* E = new ListNode(5);
+//	ListNode* F = new ListNode(6);
+//	A->next = B;
+//	B->next = C;
+//	C->next = D;
+//	D->next = E;
+//	E->next = F;
+//	Solution s;
+//	ListNode* res = s.sortList(A);
+//	while (res) {
+//		cout << res->val << endl;
+//		res = res->next;
+//	}
+//	system("pause");
+//	return 0;
+//}
