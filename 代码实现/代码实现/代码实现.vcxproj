@@ -56,6 +56,7 @@
     <ClCompile Include="58_翻转单词顺序.cpp" />
     <ClCompile Include="61_扑克牌中的顺子.cpp" />
     <ClCompile Include="65_不用加减乘除做加法.cpp" />
+    <ClCompile Include="周赛248.cpp" />
     <ClCompile Include="手撕练习.cpp" />
     <ClCompile Include="测试线程.cpp" />
     <ClCompile Include="牛客LRU.cpp" />
