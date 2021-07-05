@@ -18,11 +18,11 @@ public:
 	}
 };
 
-int main() {
-	int n = 880;
-	Solution s;
-	int res = s.cuttingRope(n);
-	cout << res << endl;
-	system("pause");
-	return 0;
-}
+//int main() {
+//	int n = 880;
+//	Solution s;
+//	int res = s.cuttingRope(n);
+//	cout << res << endl;
+//	system("pause");
+//	return 0;
+//}

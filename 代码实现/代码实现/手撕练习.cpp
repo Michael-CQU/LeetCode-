@@ -1,10 +1,9 @@
-﻿//#include <bits/stdc++.h>
-//using namespace std;
-//int main() {
-//	int a = 1;
-//	//a <<= 2;
-//	a ^= 1;
-//	cout << a << endl;
-//	system("pause");
-//	return 0;
-//}
+﻿#include <bits/stdc++.h>
+using namespace std;
+int main() {
+	string test = "2007 10";
+	test.erase(test.begin()+4);
+	cout << test << endl;
+	system("pause");
+	return 0;
+}
