@@ -408,6 +408,12 @@
     <ClCompile Include="周赛248.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="6_Z字形变换.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="11_盛最多水的容器.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

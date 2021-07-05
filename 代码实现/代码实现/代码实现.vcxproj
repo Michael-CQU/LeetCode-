@@ -22,6 +22,7 @@
     <ClCompile Include="105_从前序与中序遍历序列构造二叉树.cpp" />
     <ClCompile Include="106_从中序与后序遍历序列构造二叉树.cpp" />
     <ClCompile Include="11_旋转数组的最小数字.cpp" />
+    <ClCompile Include="11_盛最多水的容器.cpp" />
     <ClCompile Include="148_排序链表.cpp" />
     <ClCompile Include="14_1剪绳子.cpp" />
     <ClCompile Include="14_2_剪绳子.cpp" />
@@ -56,6 +57,7 @@
     <ClCompile Include="58_翻转单词顺序.cpp" />
     <ClCompile Include="61_扑克牌中的顺子.cpp" />
     <ClCompile Include="65_不用加减乘除做加法.cpp" />
+    <ClCompile Include="6_Z字形变换.cpp" />
     <ClCompile Include="周赛248.cpp" />
     <ClCompile Include="手撕练习.cpp" />
     <ClCompile Include="测试线程.cpp" />
