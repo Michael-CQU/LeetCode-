@@ -51,10 +51,12 @@
     <ClCompile Include="55_2_平衡二叉树.cpp" />
     <ClCompile Include="56_1_数组中数字出现的次数.cpp" />
     <ClCompile Include="56_2_数组中数字出现的次数.cpp" />
+    <ClCompile Include="57_2_和为 s 的连续正数序列.cpp" />
     <ClCompile Include="57_和为s的两个数字.cpp" />
     <ClCompile Include="58_翻转单词顺序.cpp" />
     <ClCompile Include="61_扑克牌中的顺子.cpp" />
     <ClCompile Include="65_不用加减乘除做加法.cpp" />
+    <ClCompile Include="周赛248.cpp" />
     <ClCompile Include="手撕练习.cpp" />
     <ClCompile Include="测试线程.cpp" />
     <ClCompile Include="牛客LRU.cpp" />
