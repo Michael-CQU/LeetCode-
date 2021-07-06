@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="105_从前序与中序遍历序列构造二叉树.cpp" />
     <ClCompile Include="106_从中序与后序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="1143_最长公共子序列.cpp" />
     <ClCompile Include="11_旋转数组的最小数字.cpp" />
     <ClCompile Include="11_盛最多水的容器.cpp" />
     <ClCompile Include="148_排序链表.cpp" />
@@ -37,6 +38,7 @@
     <ClCompile Include="37_序列化二叉树.cpp" />
     <ClCompile Include="38_字符串的排列.cpp" />
     <ClCompile Include="3_数组中重复的数字.cpp" />
+    <ClCompile Include="409_最长回文串.cpp" />
     <ClCompile Include="40_最小的K个数.cpp" />
     <ClCompile Include="41_数据流中的中位数.cpp" />
     <ClCompile Include="45_把数组排成最小的数.cpp" />
