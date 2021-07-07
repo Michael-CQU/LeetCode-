@@ -420,6 +420,9 @@
     <ClCompile Include="409_最长回文串.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="155_最小栈.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
