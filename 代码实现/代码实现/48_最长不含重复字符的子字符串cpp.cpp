@@ -4,7 +4,7 @@
 #include <algorithm>
 #include <unordered_map>
 using namespace std;
-
+//此题的关键是考虑字符s[i]在子字符串dp[j-1]区间的里边还是外边
 class Solution {
 public:
 	int lengthOfLongestSubstring(string s) {
@@ -12,8 +12,7 @@ public:
 		if (n == 0)return 0;
 		vector<int> dp(n + 1, 1);
 		unordered_map<char, int> dis;
-		dis[s[0]] = 0;
-		int first = -1;//注意起始位置要为-1，从而使得刚开始的几个值可以计算正确
+		int first = 0;
 		for (int i = 1; i <= n; i++) {
 			if (dis.find(s[i - 1]) != dis.end()) {
 				first = dis[s[i - 1]];

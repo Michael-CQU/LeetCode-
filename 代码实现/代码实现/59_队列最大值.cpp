@@ -19,7 +19,7 @@
 //
 //	void push_back(int value) {
 //		q.push(value);
-//		while (!d.empty()&&d.back() <= value) {
+//		while (!d.empty()&&d.back() < value) {
 //			d.pop_back();
 //		}
 //		d.push_back(value);
