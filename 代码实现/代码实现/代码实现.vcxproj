@@ -35,6 +35,7 @@
     <ClCompile Include="22_链表中倒数第 k 个节点.cpp" />
     <ClCompile Include="25_K个一组反转链表.cpp" />
     <ClCompile Include="25_合并两个排序的链表.cpp" />
+    <ClCompile Include="2_两数相加.cpp" />
     <ClCompile Include="31_下一个排列.cpp" />
     <ClCompile Include="37_序列化二叉树.cpp" />
     <ClCompile Include="38_字符串的排列.cpp" />
@@ -61,7 +62,16 @@
     <ClCompile Include="61_扑克牌中的顺子.cpp" />
     <ClCompile Include="65_不用加减乘除做加法.cpp" />
     <ClCompile Include="6_Z字形变换.cpp" />
+    <ClCompile Include="785_快速排序.cpp" />
+    <ClCompile Include="786_第K个数.cpp" />
+    <ClCompile Include="788_逆序对的数量.cpp" />
+    <ClCompile Include="789_数的范围.cpp" />
+    <ClCompile Include="790_数的三次方根.cpp" />
+    <ClCompile Include="795_前缀和.cpp" />
+    <ClCompile Include="796_子矩阵的和.cpp" />
+    <ClCompile Include="801_二进制中1的个数.cpp" />
     <ClCompile Include="周赛248.cpp" />
+    <ClCompile Include="字符串相加进位.cpp" />
     <ClCompile Include="手撕练习.cpp" />
     <ClCompile Include="测试线程.cpp" />
     <ClCompile Include="牛客LRU.cpp" />

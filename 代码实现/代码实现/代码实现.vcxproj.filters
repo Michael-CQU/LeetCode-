@@ -19,6 +19,9 @@
     <Filter Include="源文件\Leetcode">
       <UniqueIdentifier>{3df71514-21a5-4423-ac67-9558f72e896e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\acwing">
+      <UniqueIdentifier>{88e85a19-540b-4237-8ca3-10b571bc2c02}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="exclusiveOR_xor.cpp">
@@ -422,6 +425,36 @@
     </ClCompile>
     <ClCompile Include="155_最小栈.cpp">
       <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串相加进位.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="2_两数相加.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="789_数的范围.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="790_数的三次方根.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="785_快速排序.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="786_第K个数.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="788_逆序对的数量.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="795_前缀和.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="796_子矩阵的和.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="801_二进制中1的个数.cpp">
+      <Filter>源文件\acwing</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
