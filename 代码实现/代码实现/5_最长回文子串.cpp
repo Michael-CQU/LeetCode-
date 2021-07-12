@@ -37,6 +37,7 @@ return true;
 */
 
 /*中心扩展法
+//中心扩展法一定要考虑中心为一个值还有中心为两个值的情况
 class Solution {
 public:
 pair<int, int> expandAroundCenter(const string& s, int left, int right) {
@@ -65,6 +66,31 @@ return s.substr(start, end - start + 1);
 }
 };
 */
+//自己实现中心扩展法
+//class Solution {
+//public:
+//    int mygetlength(string s,int left,int right){
+//        while(left>=0&&right<s.size()&&s[left]==s[right]){
+//            left--;
+//            right++;
+//        }
+//        return right - left -1;
+//    }
+//    string longestPalindrome(string s) {
+//        int res = 0;
+//        int start = 0,len = 0;
+//        for(int i = 0;i<s.size();i++){
+//            int len1 = mygetlength(s,i,i);
+//            int len2 = mygetlength(s,i,i+1);
+//            res = max(max(len1,len2),res);
+//            if(res>len){
+//                start = i-(res-1)/2;
+//                len = res;
+//            }
+//        }
+//        return s.substr(start,len);
+//    }
+//};
 
 //动态规划
 #include <iostream>

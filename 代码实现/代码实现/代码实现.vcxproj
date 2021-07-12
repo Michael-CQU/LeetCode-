@@ -35,6 +35,7 @@
     <ClCompile Include="22_链表中倒数第 k 个节点.cpp" />
     <ClCompile Include="25_K个一组反转链表.cpp" />
     <ClCompile Include="25_合并两个排序的链表.cpp" />
+    <ClCompile Include="2816_判断子序列.cpp" />
     <ClCompile Include="2_两数相加.cpp" />
     <ClCompile Include="300_最长递增子序列.cpp" />
     <ClCompile Include="31_下一个排列.cpp" />
@@ -44,6 +45,7 @@
     <ClCompile Include="409_最长回文串.cpp" />
     <ClCompile Include="40_最小的K个数.cpp" />
     <ClCompile Include="41_数据流中的中位数.cpp" />
+    <ClCompile Include="438_找所有字母异位词.cpp" />
     <ClCompile Include="45_把数组排成最小的数.cpp" />
     <ClCompile Include="477_汉明距离和.cpp" />
     <ClCompile Include="49_丑数.cpp" />
@@ -73,6 +75,7 @@
     <ClCompile Include="795_前缀和.cpp" />
     <ClCompile Include="796_子矩阵的和.cpp" />
     <ClCompile Include="799_最长连续不重复子序列.cpp" />
+    <ClCompile Include="800_数组元素的目标和.cpp" />
     <ClCompile Include="801_二进制中1的个数.cpp" />
     <ClCompile Include="802_区间和.cpp" />
     <ClCompile Include="周赛248.cpp" />

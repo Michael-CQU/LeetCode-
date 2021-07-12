@@ -183,11 +183,11 @@ void inorder1(BSTreeNode* root) {
 //{
 //	int a[] = { 3,5,1,6,2,10,8,-1,-1,7,4 };
 //	//int a[] = { 3,9,20,-1,-1,15,7 };
-//	BSTreeNode *root = NULL;
-//	root = creatBTree(a, 0, sizeof(a) / sizeof(a[0]));
+//	BSTreeNode *root = nullptr;
+//	//root = creatBTree(a, 0, sizeof(a) / sizeof(a[0]));
 //	//preorder1(root);
 //	//inorder1(root);
-//	levelordertraver(root);
+//	//levelordertraver(root);
 //	system("pause");
 //	return 0;
 //}

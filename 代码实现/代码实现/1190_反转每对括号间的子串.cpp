@@ -1,8 +1,8 @@
-//#include <iostream>
-//#include <string>
-//#include <stack>
-//#include <algorithm>
-//using namespace std;
+#include <iostream>
+#include <string>
+#include <stack>
+#include <algorithm>
+using namespace std;
 //class Solution {
 //public:
 //	string reverseParentheses(string s) {
@@ -36,9 +36,33 @@
 //	}
 //};
 //
+
+//自我实现
+class Solution {
+public:
+    string reverseParentheses(string s) {
+        stack<string> st;
+        string test = "";
+        for(char i:s){
+            if(i == '('){
+                st.push(test);
+                test = "";
+            }
+            else if(i == ')'){
+                reverse(test.begin(),test.end());
+                test = st.top()+test;
+                st.pop();
+            }
+            else{
+                test+=i;
+            }
+        }
+        return test;
+    }
+};
 //int main() {
-//	//string str = "(ed(et(oc))el)";
-//	string str = "a(bcdefghijkl(mno)p)q";
+//	string str = "(ed(et(oc))el)";
+//	//string str = "a(bcdefghijkl(mno)p)q";
 //	Solution s;
 //	string result = s.reverseParentheses(str);
 //	cout << result << endl;

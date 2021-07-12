@@ -22,34 +22,34 @@ using namespace std;
 //	}
 //};
 //方法二：双指针（空间复杂度为O（n））
-class Solution {
-public:
-	string reverseWords(string s) {
-		// 反转整个字符串
-		reverse(s.begin(), s.end());
-
-		int n = s.size();
-		int idx = 0;//用于确定s字符串中单词的索引，即最后要确定的位置（重要，着重理解这个变量的含义）
-		for (int start = 0; start < n; ++start) {
-			if (s[start] != ' ') {
-				// 填一个空白字符然后将idx移动到下一个单词的开头位置
-				if (idx != 0) s[idx++] = ' ';//一个单词找完以后在这个单词后边添加一个空格，并将索引idx向后移动一位
-
-				// 循环遍历至单词的末尾
-				int end = start;//end和start两个指针是用来敲定单词范围的
-				while (end < n && s[end] != ' ') s[idx++] = s[end++];
-
-				// 反转整个单词
-				reverse(s.begin() + idx - (end - start), s.begin() + idx);
-
-				// 更新start，去找下一个单词
-				start = end;
-			}
-		}
-		s.erase(s.begin() + idx, s.end());//最后删除s中多余的部分（由于有前后导或者中间多余的0导致的多余位）
-		return s;
-	}
-};
+//class Solution {
+//public:
+//	string reverseWords(string s) {
+//		// 反转整个字符串
+//		reverse(s.begin(), s.end());
+//
+//		int n = s.size();
+//		int idx = 0;//用于确定s字符串中单词的索引，即最后要确定的位置（重要，着重理解这个变量的含义）
+//		for (int start = 0; start < n; ++start) {
+//			if (s[start] != ' ') {
+//				// 填一个空白字符然后将idx移动到下一个单词的开头位置
+//				if (idx != 0) s[idx++] = ' ';//一个单词找完以后在这个单词后边添加一个空格，并将索引idx向后移动一位
+//
+//				// 循环遍历至单词的末尾
+//				int end = start;//end和start两个指针是用来敲定单词范围的
+//				while (end < n && s[end] != ' ') s[idx++] = s[end++];
+//
+//				// 反转整个单词
+//				reverse(s.begin() + idx - (end - start), s.begin() + idx);
+//
+//				// 更新start，去找下一个单词
+//				start = end;
+//			}
+//		}
+//		s.erase(s.begin() + idx, s.end());//最后删除s中多余的部分（由于有前后导或者中间多余的0导致的多余位）
+//		return s;
+//	}
+//};
 //方法三：双端队列（C++中尽量用deque来实现栈的功能，因为stack已经被舍弃了）：先将字符串中的数字一个一个找出来，然后将单词压入队列的头部，因为双端队列相当于栈，因此后找到的单词就压入了队列的头部，相当于把单词移到了前边。最后再用一个新的字符串来接收从队列头部出来的一个一个单词即可
 //class Solution {
 //public:
@@ -87,8 +87,10 @@ public:
 //		return ans;
 //	}
 //};
+
+
 //int main() {
-//	string test = "the sky is blue";
+//	string test = "  hello world!  ";
 //	Solution s;
 //	string res = s.reverseWords(test);
 //	cout << res << endl;

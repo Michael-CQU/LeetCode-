@@ -38,8 +38,8 @@ public:
 };
 
 //int main() {
-//	string test1 = "ADOBECODEBANC";
-//	string test2 = "ABC";
+//	string test1 = "aa";
+//	string test2 = "aa";
 //	Solution s;
 //	string result = s.minWindow(test1,test2);
 //	cout << result << endl;

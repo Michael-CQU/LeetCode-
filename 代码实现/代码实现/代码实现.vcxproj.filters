@@ -471,6 +471,15 @@
     <ClCompile Include="799_最长连续不重复子序列.cpp">
       <Filter>源文件\acwing</Filter>
     </ClCompile>
+    <ClCompile Include="800_数组元素的目标和.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="2816_判断子序列.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="438_找所有字母异位词.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

@@ -3,11 +3,13 @@
 #include<algorithm>
 #include <unordered_map>
 using namespace std;
+const int N = 1e5;
+
 class Solution {
 public:
 	int longestsubstr(vector<int> nums) {
 		int n = nums.size();
-		unordered_map<int, int> temp;
+		vector<int> temp(N);
 		int res = 0;
 		for (int i = 0,j = 0; i < n; i++) {
 			temp[nums[i]]++;
@@ -21,16 +23,16 @@ public:
 	}
 };
 
-int main() {
-	int n = 0;
-	cin >> n;
-	vector<int> test(n);
-	for (int i = 0; i < n; i++) {
-		cin >> test[i];
-	}
-	Solution s;
-	int res = s.longestsubstr(test);
-	cout << res << endl;
-	system("pause");
-	return 0;
-}
+//int main() {
+//	int n = 0;
+//	cin >> n;
+//	vector<int> test(n);
+//	for (int i = 0; i < n; i++) {
+//		cin >> test[i];
+//	}
+//	Solution s;
+//	int res = s.longestsubstr(test);
+//	cout << res << endl;
+//	system("pause");
+//	return 0;
+//}

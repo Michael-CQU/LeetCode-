@@ -26,9 +26,9 @@ public:
 };
 
 //int main() {
-//	string test = "bbcbaba";
-//	Solution s;
-//	int res = s.countPalindromicSubsequence(test);
+//	//string test = "bbcbaba";
+//	//Solution s;
+//	//int res = s.countPalindromicSubsequence(test);
 //	system("pause");
 //	return 0;
 //}
