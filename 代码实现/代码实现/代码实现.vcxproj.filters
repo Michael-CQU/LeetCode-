@@ -480,6 +480,27 @@
     <ClCompile Include="438_找所有字母异位词.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="初始化列表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="虚函数表与虚表指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="构造与析构的顺序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="构造函数的分类及调用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="迭代器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="智能指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="智能指针内部原理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
