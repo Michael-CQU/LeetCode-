@@ -501,6 +501,12 @@
     <ClCompile Include="智能指针内部原理.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lambda表达式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="function和bind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

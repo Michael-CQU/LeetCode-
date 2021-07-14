@@ -78,6 +78,8 @@
     <ClCompile Include="800_数组元素的目标和.cpp" />
     <ClCompile Include="801_二进制中1的个数.cpp" />
     <ClCompile Include="802_区间和.cpp" />
+    <ClCompile Include="function和bind.cpp" />
+    <ClCompile Include="lambda表达式.cpp" />
     <ClCompile Include="初始化列表.cpp" />
     <ClCompile Include="周赛248.cpp" />
     <ClCompile Include="字符串相加进位.cpp" />
