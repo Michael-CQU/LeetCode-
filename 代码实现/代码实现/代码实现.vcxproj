@@ -47,6 +47,7 @@
     <ClCompile Include="41_数据流中的中位数.cpp" />
     <ClCompile Include="438_找所有字母异位词.cpp" />
     <ClCompile Include="45_把数组排成最小的数.cpp" />
+    <ClCompile Include="470._用 Rand7() 实现 Rand10().cpp" />
     <ClCompile Include="477_汉明距离和.cpp" />
     <ClCompile Include="49_丑数.cpp" />
     <ClCompile Include="4_二维数组中的查找.cpp" />

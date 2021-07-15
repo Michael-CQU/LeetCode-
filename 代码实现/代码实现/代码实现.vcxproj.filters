@@ -507,6 +507,9 @@
     <ClCompile Include="function和bind.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="470._用 Rand7() 实现 Rand10().cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
