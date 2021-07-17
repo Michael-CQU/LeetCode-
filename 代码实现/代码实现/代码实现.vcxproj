@@ -81,9 +81,11 @@
     <ClCompile Include="802_区间和.cpp" />
     <ClCompile Include="function和bind.cpp" />
     <ClCompile Include="lambda表达式.cpp" />
+    <ClCompile Include="内存池练习.cpp" />
     <ClCompile Include="初始化列表.cpp" />
     <ClCompile Include="周赛248.cpp" />
     <ClCompile Include="字符串相加进位.cpp" />
+    <ClCompile Include="射手打靶（递归）.cpp" />
     <ClCompile Include="手撕练习.cpp" />
     <ClCompile Include="智能指针.cpp" />
     <ClCompile Include="智能指针内部原理.cpp" />
