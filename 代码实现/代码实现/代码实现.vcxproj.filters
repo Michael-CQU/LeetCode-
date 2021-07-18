@@ -426,9 +426,6 @@
     <ClCompile Include="155_最小栈.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="字符串相加进位.cpp">
-      <Filter>源文件\acwing</Filter>
-    </ClCompile>
     <ClCompile Include="2_两数相加.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
@@ -515,6 +512,15 @@
     </ClCompile>
     <ClCompile Include="内存池练习.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34_在排序数组中查找元素的第一个和最后一个位置.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="791.字符串相加进位%28高精度加法%29.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="793_高精度乘法.cpp">
+      <Filter>源文件\acwing</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -39,6 +39,7 @@
     <ClCompile Include="2_两数相加.cpp" />
     <ClCompile Include="300_最长递增子序列.cpp" />
     <ClCompile Include="31_下一个排列.cpp" />
+    <ClCompile Include="34_在排序数组中查找元素的第一个和最后一个位置.cpp" />
     <ClCompile Include="37_序列化二叉树.cpp" />
     <ClCompile Include="38_字符串的排列.cpp" />
     <ClCompile Include="3_数组中重复的数字.cpp" />
@@ -73,6 +74,7 @@
     <ClCompile Include="788_逆序对的数量.cpp" />
     <ClCompile Include="789_数的范围.cpp" />
     <ClCompile Include="790_数的三次方根.cpp" />
+    <ClCompile Include="793_高精度乘法.cpp" />
     <ClCompile Include="795_前缀和.cpp" />
     <ClCompile Include="796_子矩阵的和.cpp" />
     <ClCompile Include="799_最长连续不重复子序列.cpp" />
@@ -84,7 +86,7 @@
     <ClCompile Include="内存池练习.cpp" />
     <ClCompile Include="初始化列表.cpp" />
     <ClCompile Include="周赛248.cpp" />
-    <ClCompile Include="字符串相加进位.cpp" />
+    <ClCompile Include="791.字符串相加进位%28高精度加法%29.cpp" />
     <ClCompile Include="射手打靶（递归）.cpp" />
     <ClCompile Include="手撕练习.cpp" />
     <ClCompile Include="智能指针.cpp" />
