@@ -522,6 +522,9 @@
     <ClCompile Include="793_高精度乘法.cpp">
       <Filter>源文件\acwing</Filter>
     </ClCompile>
+    <ClCompile Include="798_差分矩阵.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

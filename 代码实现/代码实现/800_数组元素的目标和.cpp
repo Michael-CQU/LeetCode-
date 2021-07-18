@@ -12,7 +12,6 @@ using namespace std;
 //	for (int i = 0; i < m; i++) {
 //		cin >> B[i];
 //	}
-//	int i = 0, j = 0,target = 0;
 //	for (int i = 0, j = m-1; i < A.size(); i++) {
 //		while (j >= 0 && A[i] + B[j] > x)j--;
 //		if (j >= 0 && A[i] + B[j] == x) cout << i << " " << j << endl;

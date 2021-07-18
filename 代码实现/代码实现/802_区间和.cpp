@@ -1,7 +1,7 @@
-#include<iostream>
-#include<vector>
-using namespace std;
-
+//#include<iostream>
+//#include<vector>
+//using namespace std;
+//
 //int main() {
 //	vector<int> test = {1,1,2,2,2,3,4,5,5,5,6};
 //	int j = 0;
