@@ -525,6 +525,18 @@
     <ClCompile Include="798_差分矩阵.cpp">
       <Filter>源文件\acwing</Filter>
     </ClCompile>
+    <ClCompile Include="826_单链表.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="829_模拟队列.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="830_单调栈.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
+    <ClCompile Include="154_滑动窗口.cpp">
+      <Filter>源文件\acwing</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
