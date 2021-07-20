@@ -537,6 +537,9 @@
     <ClCompile Include="154_滑动窗口.cpp">
       <Filter>源文件\acwing</Filter>
     </ClCompile>
+    <ClCompile Include="124_二叉树中的最大路径和.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

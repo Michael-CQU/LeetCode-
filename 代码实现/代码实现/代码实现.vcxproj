@@ -24,6 +24,7 @@
     <ClCompile Include="1143_最长公共子序列.cpp" />
     <ClCompile Include="11_旋转数组的最小数字.cpp" />
     <ClCompile Include="11_盛最多水的容器.cpp" />
+    <ClCompile Include="124_二叉树中的最大路径和.cpp" />
     <ClCompile Include="148_排序链表.cpp" />
     <ClCompile Include="14_1剪绳子.cpp" />
     <ClCompile Include="14_2_剪绳子.cpp" />
