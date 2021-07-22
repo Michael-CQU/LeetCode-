@@ -35,6 +35,7 @@
     <ClCompile Include="17_打印从1到最大的n位数.cpp" />
     <ClCompile Include="18_删除链表的节点.cpp" />
     <ClCompile Include="22_链表中倒数第 k 个节点.cpp" />
+    <ClCompile Include="23_合并k个排序链表.cpp" />
     <ClCompile Include="25_K个一组反转链表.cpp" />
     <ClCompile Include="25_合并两个排序的链表.cpp" />
     <ClCompile Include="2816_判断子序列.cpp" />
