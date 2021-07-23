@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="105_从前序与中序遍历序列构造二叉树.cpp" />
     <ClCompile Include="106_从中序与后序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="109_有序链表转换二叉搜索树.cpp" />
     <ClCompile Include="1143_最长公共子序列.cpp" />
     <ClCompile Include="11_旋转数组的最小数字.cpp" />
     <ClCompile Include="11_盛最多水的容器.cpp" />
@@ -90,6 +91,7 @@
     <ClCompile Include="830_单调栈.cpp" />
     <ClCompile Include="function和bind.cpp" />
     <ClCompile Include="lambda表达式.cpp" />
+    <ClCompile Include="二分查找（递归+非递归）.cpp" />
     <ClCompile Include="内存池练习.cpp" />
     <ClCompile Include="初始化列表.cpp" />
     <ClCompile Include="周赛248.cpp" />
