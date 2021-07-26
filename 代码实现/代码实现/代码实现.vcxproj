@@ -47,6 +47,7 @@
     <ClCompile Include="37_序列化二叉树.cpp" />
     <ClCompile Include="38_字符串的排列.cpp" />
     <ClCompile Include="3_数组中重复的数字.cpp" />
+    <ClCompile Include="402_移掉k位数字.cpp" />
     <ClCompile Include="409_最长回文串.cpp" />
     <ClCompile Include="40_最小的K个数.cpp" />
     <ClCompile Include="41_数据流中的中位数.cpp" />
@@ -57,6 +58,7 @@
     <ClCompile Include="49_丑数.cpp" />
     <ClCompile Include="4_二维数组中的查找.cpp" />
     <ClCompile Include="50_第一个只出现一次的字符.cpp" />
+    <ClCompile Include="51_n皇后.cpp" />
     <ClCompile Include="51_数组中的逆序对.cpp" />
     <ClCompile Include="52_两个链表的第一个公共节点.cpp" />
     <ClCompile Include="53_2_0到n-1中缺失的数字.cpp" />
@@ -97,6 +99,7 @@
     <ClCompile Include="周赛248.cpp" />
     <ClCompile Include="791.字符串相加进位%28高精度加法%29.cpp" />
     <ClCompile Include="射手打靶（递归）.cpp" />
+    <ClCompile Include="手写string类.cpp" />
     <ClCompile Include="手撕练习.cpp" />
     <ClCompile Include="智能指针.cpp" />
     <ClCompile Include="智能指针内部原理.cpp" />
@@ -266,6 +269,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -288,6 +292,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

@@ -549,6 +549,15 @@
     <ClCompile Include="二分查找（递归+非递归）.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="手写string类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="402_移掉k位数字.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="51_n皇后.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
