@@ -26,6 +26,8 @@
     <ClCompile Include="11_旋转数组的最小数字.cpp" />
     <ClCompile Include="11_盛最多水的容器.cpp" />
     <ClCompile Include="124_二叉树中的最大路径和.cpp" />
+    <ClCompile Include="141_环形链表.cpp" />
+    <ClCompile Include="142_环形链表2.cpp" />
     <ClCompile Include="148_排序链表.cpp" />
     <ClCompile Include="14_1剪绳子.cpp" />
     <ClCompile Include="14_2_剪绳子.cpp" />
@@ -101,6 +103,7 @@
     <ClCompile Include="射手打靶（递归）.cpp" />
     <ClCompile Include="手写string类.cpp" />
     <ClCompile Include="手撕练习.cpp" />
+    <ClCompile Include="数组指针与指针数组.cpp" />
     <ClCompile Include="智能指针.cpp" />
     <ClCompile Include="智能指针内部原理.cpp" />
     <ClCompile Include="构造与析构的顺序.cpp" />

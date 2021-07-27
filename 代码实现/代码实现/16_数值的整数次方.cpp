@@ -1,5 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
+//自我实现快速幂，时间复杂度为O（logk）
+class Solution {
+public:
+	double myPow(double x, int n) {
+		long long k = n;
+		if (k < 0) {
+			k = -k;
+			x = 1 / x;
+		}
+		double res = 1;
+		while (k) {
+			if (k & 1)
+				res = res*x;
+			k >>= 1;
+			x = x*x;
+		}
+		return res;
+	}
+};
 //迭代法
 //class Solution {
 //public:
@@ -20,21 +39,21 @@ using namespace std;
 //	}
 //};
 //迭代法
-class Solution {//此题要思考边界条件，以及特殊的测试样例
-public:
-	double myPow(double x, int n) {
-		if (n == INT_MIN)return(x == 1 || x == -1) ? 1 : 0;//特判条件，当n的值为最小值时，无法进行计算，可以将n转换成long long形式或者用此方法特判
-		if (n == 0)
-			return 1;
-		if (n < 0)
-			return myPow(1 / x, -n);
-		if (n % 2 == 1)
-			//return myPow(x, n - 1)*x;
-			return myPow(x*x, n / 2)*x;
-		else
-			return myPow(x*x, n / 2);
-	}
-};//每次递归都会使得指数减少一半，因此递归的层数为O（logn）
+//class Solution {//此题要思考边界条件，以及特殊的测试样例
+//public:
+//	double myPow(double x, int n) {
+//		if (n == INT_MIN)return(x == 1 || x == -1) ? 1 : 0;//特判条件，当n的值为最小值时，无法进行计算，可以将n转换成long long形式或者用此方法特判
+//		if (n == 0)
+//			return 1;
+//		if (n < 0)
+//			return myPow(1 / x, -n);
+//		if (n % 2 == 1)
+//			//return myPow(x, n - 1)*x;
+//			return myPow(x*x, n / 2)*x;
+//		else
+//			return myPow(x*x, n / 2);
+//	}
+//};//每次递归都会使得指数减少一半，因此递归的层数为O（logn）
 //int main() {
 //	double x = 1.0;
 //	int n = INT_MIN;
