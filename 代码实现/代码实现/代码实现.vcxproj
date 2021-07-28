@@ -45,7 +45,9 @@
     <ClCompile Include="2_两数相加.cpp" />
     <ClCompile Include="300_最长递增子序列.cpp" />
     <ClCompile Include="31_下一个排列.cpp" />
+    <ClCompile Include="349_两个数组的交集.cpp" />
     <ClCompile Include="34_在排序数组中查找元素的第一个和最后一个位置.cpp" />
+    <ClCompile Include="350_两个数组的交集2.cpp" />
     <ClCompile Include="37_序列化二叉树.cpp" />
     <ClCompile Include="38_字符串的排列.cpp" />
     <ClCompile Include="3_数组中重复的数字.cpp" />

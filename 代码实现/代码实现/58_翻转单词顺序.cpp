@@ -22,6 +22,7 @@ using namespace std;
 //	}
 //};
 //方法二：双指针（空间复杂度为O（n））
+//思路：1.先翻转整个字符串；2.去除整体字符串的前导空格；3.找到每个单词并翻转；4.删除尾部多余的部分
 //class Solution {
 //public:
 //	string reverseWords(string s) {
