@@ -573,6 +573,15 @@
     <ClCompile Include="350_两个数组的交集2.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="32_最长有效括号.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="301_删除无效的括号.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="4_寻找两个正序数组的中位数.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

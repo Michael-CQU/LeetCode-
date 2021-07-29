@@ -89,6 +89,24 @@ using namespace std;
 //	}
 //};
 
+//自我实现
+//class Solution {
+//public:
+//    string reverseWords(string s) {
+//        int n = s.size();
+//        string ans = "";
+//        for(int i = n-1;i>=0;i--){
+//            int c = 0;
+//            while(i>=0&&s[i]!=' '){
+//                i--;
+//                c++;
+//            }
+//            if(c)
+//            ans+=s.substr(i+1,c)+" ";
+//        }
+//        return ans.substr(0,ans.size()-1);
+//    }
+//};
 
 //int main() {
 //	string test = "  hello world!  ";

@@ -44,7 +44,9 @@
     <ClCompile Include="2816_判断子序列.cpp" />
     <ClCompile Include="2_两数相加.cpp" />
     <ClCompile Include="300_最长递增子序列.cpp" />
+    <ClCompile Include="301_删除无效的括号.cpp" />
     <ClCompile Include="31_下一个排列.cpp" />
+    <ClCompile Include="32_最长有效括号.cpp" />
     <ClCompile Include="349_两个数组的交集.cpp" />
     <ClCompile Include="34_在排序数组中查找元素的第一个和最后一个位置.cpp" />
     <ClCompile Include="350_两个数组的交集2.cpp" />
@@ -61,6 +63,7 @@
     <ClCompile Include="477_汉明距离和.cpp" />
     <ClCompile Include="49_丑数.cpp" />
     <ClCompile Include="4_二维数组中的查找.cpp" />
+    <ClCompile Include="4_寻找两个正序数组的中位数.cpp" />
     <ClCompile Include="50_第一个只出现一次的字符.cpp" />
     <ClCompile Include="51_n皇后.cpp" />
     <ClCompile Include="51_数组中的逆序对.cpp" />
