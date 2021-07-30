@@ -582,6 +582,9 @@
     <ClCompile Include="4_寻找两个正序数组的中位数.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="74_搜索二维矩阵.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

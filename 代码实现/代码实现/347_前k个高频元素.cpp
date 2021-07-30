@@ -91,13 +91,13 @@ public:
 		return ans;
 	}
 };
-int main() {
-	vector<int> test = { 1,1,1,2,2,3 };
-	Solution s;
-	vector<int> ans = s.topKFrequent(test, 2);
-	for (int i : ans)
-		cout << i << " ";
-	cout << endl;
-	system("pause");
-	return 0;
-}
+//int main() {
+//	vector<int> test = { 1,1,1,2,2,3 };
+//	Solution s;
+//	vector<int> ans = s.topKFrequent(test, 2);
+//	for (int i : ans)
+//		cout << i << " ";
+//	cout << endl;
+//	system("pause");
+//	return 0;
+//}
