@@ -12,7 +12,7 @@ struct TreeNode {
 class Solution {
 public:
 	TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-		//递归终止条件：1.当越过叶节点，则直接返回 nullnull ；2.当 rootroot 等于 p, qp, q ，则直接返回 rootroot ；
+		//递归终止条件：1.当越过叶节点，则直接返回 null ；2.当 root 等于 p, q ，则直接返回 root ；
 		if (root == NULL)
 			return NULL;
 		if (root == p || root == q)

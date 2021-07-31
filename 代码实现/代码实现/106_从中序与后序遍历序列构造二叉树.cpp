@@ -21,8 +21,8 @@ public:
 		int in_root = index[postorder[po_root]];
 		TreeNode* root = new TreeNode(postorder[po_root]);
 		int size_left_subtree = in_root - in_left;
-		root->right = mybuildTree(inorder, in_root + 1, in_right, postorder, po_left + size_left_subtree + 1, po_right - 1);
-		root->left = mybuildTree(inorder, in_left, in_root - 1, postorder, po_left, po_left + size_left_subtree);
+		root->left = mybuildTree(inorder, in_left, in_root - 1, postorder, po_left, po_left + size_left_subtree-1);
+		root->right = mybuildTree(inorder, in_root + 1, in_right, postorder, po_left + size_left_subtree, po_right - 1);
 		return root;
 	}
 	TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
@@ -32,3 +32,15 @@ public:
 		return mybuildTree(inorder, 0, inorder.size() - 1, postorder, 0, postorder.size() - 1);
 	}
 };
+
+//int main() {
+//	vector<int> inorder = { 9,3,15,20,7 };
+//	vector<int> postorder = { 9,15,7,20,3 };
+//	Solution s;
+//	TreeNode* result = s.buildTree(inorder, postorder);
+//	//层次遍历输出二叉树结果
+//	//levelordertraver(result);
+//	//postorder1(result);
+//	system("pause");
+//	return 0;
+//}
