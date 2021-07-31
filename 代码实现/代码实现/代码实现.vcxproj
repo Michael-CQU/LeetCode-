@@ -82,6 +82,7 @@
     <ClCompile Include="61_扑克牌中的顺子.cpp" />
     <ClCompile Include="65_不用加减乘除做加法.cpp" />
     <ClCompile Include="6_Z字形变换.cpp" />
+    <ClCompile Include="74_搜索二维矩阵.cpp" />
     <ClCompile Include="785_快速排序.cpp" />
     <ClCompile Include="786_第K个数.cpp" />
     <ClCompile Include="788_逆序对的数量.cpp" />
