@@ -16,7 +16,8 @@ void merge_sort_recursive(vector<T>& arr, vector<T>& temp, int left, int right) 
 	int start2 = pivot + 1, end2 = right;
 	merge_sort_recursive(arr, temp, start1, end1);
 	merge_sort_recursive(arr, temp, start2, end2);
-	int k = left;//注意k取left或者0时候，最后的for循环进行覆写时有些小差别，因为temp对应的位置不同
+	//int k = left;//注意k取left或者0时候，最后的for循环进行覆写时有些小差别，因为temp对应的位置不同
+	int k = 0;
 	while (start1 <= end1 && start2 <= end2) {
 		if (arr[start1] <= arr[start2]) {
 			temp[k++] = arr[start1++];
@@ -29,8 +30,11 @@ void merge_sort_recursive(vector<T>& arr, vector<T>& temp, int left, int right) 
 			temp[k++] = arr[start1++];
 		while (start2 <= end2)
 			temp[k++] = arr[start2++];
-		for (k = left; k <= right; k++) {//将temp中从left到right排好序的值覆盖到arr数组中
-			arr[k] = temp[k];
+		//for (k = left; k <= right; k++) {//将temp中从left到right排好序的值覆盖到arr数组中
+		//	arr[k] = temp[k];
+		//}
+		for (int i = 0; i < k; i++) {//k=0时的写法
+			arr[left + i] = temp[i];
 		}
 }
 

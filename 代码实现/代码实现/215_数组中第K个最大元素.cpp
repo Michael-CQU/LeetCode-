@@ -3,39 +3,39 @@
 #include <ctime>
 using namespace std;
 //方法一：快速排序
-class Solution {
-public:
-	int partition(vector<int>& nums, int left, int right) {
-		int pivot = nums[left];
-		int i = left, j = right;
-		while (i < j) {
-			while (nums[j] >= pivot&&i < j)
-				j--;
-			while (nums[i] <= pivot&&i < j)
-				i++;
-			swap(nums[i], nums[j]);
-		}
-		swap(nums[i], nums[left]);
-		return i;
-	}
-	int findKthLargest(vector<int>& nums, int k) {
-		int len = nums.size();
-		int left = 0, right = len - 1;
-		int target = len - k;
-		while (1) {
-			int index = partition(nums, left, right);
-			if (index == target) {
-				return nums[target];
-			}
-			else if (index < target) {
-				left = index + 1;
-			}
-			else {
-				right = index - 1;
-			}
-		}
-	}
-};
+//class Solution {
+//public:
+//	int partition(vector<int>& nums, int left, int right) {
+//		int pivot = nums[left];
+//		int i = left, j = right;
+//		while (i < j) {
+//			while (nums[j] >= pivot&&i < j)
+//				j--;
+//			while (nums[i] <= pivot&&i < j)
+//				i++;
+//			swap(nums[i], nums[j]);
+//		}
+//		swap(nums[i], nums[left]);
+//		return i;
+//	}
+//	int findKthLargest(vector<int>& nums, int k) {
+//		int len = nums.size();
+//		int left = 0, right = len - 1;
+//		int target = len - k;
+//		while (1) {
+//			int index = partition(nums, left, right);
+//			if (index == target) {
+//				return nums[target];
+//			}
+//			else if (index < target) {
+//				left = index + 1;
+//			}
+//			else {
+//				right = index - 1;
+//			}
+//		}
+//	}
+//};
 
 ////方法二：
 //class Solution {
@@ -71,8 +71,8 @@ public:
 //};
 
 //int main() {
-//	vector<int> test = { 2,1 };
-//	int k = 2;
+//	vector<int> test = { 3,2,3,1,2,4,5,5,6 };
+//	int k = 7;
 //	Solution s;
 //	int res = s.findKthLargest(test, k);
 //	cout << res << endl;
