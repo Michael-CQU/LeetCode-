@@ -76,6 +76,7 @@
     <ClCompile Include="55_2_平衡二叉树.cpp" />
     <ClCompile Include="56_1_数组中数字出现的次数.cpp" />
     <ClCompile Include="56_2_数组中数字出现的次数.cpp" />
+    <ClCompile Include="56_合并区间.cpp" />
     <ClCompile Include="57_2_和为 s 的连续正数序列.cpp" />
     <ClCompile Include="57_和为s的两个数字.cpp" />
     <ClCompile Include="58_翻转单词顺序.cpp" />
@@ -108,6 +109,7 @@
     <ClCompile Include="791.字符串相加进位%28高精度加法%29.cpp" />
     <ClCompile Include="射手打靶（递归）.cpp" />
     <ClCompile Include="手写string类.cpp" />
+    <ClCompile Include="手撕智能指针.cpp" />
     <ClCompile Include="手撕练习.cpp" />
     <ClCompile Include="数组指针与指针数组.cpp" />
     <ClCompile Include="智能指针.cpp" />
