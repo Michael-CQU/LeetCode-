@@ -591,6 +591,9 @@
     <ClCompile Include="手撕智能指针.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="无需数组找出比左边大比右边小的值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
