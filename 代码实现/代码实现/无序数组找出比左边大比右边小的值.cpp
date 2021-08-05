@@ -32,31 +32,31 @@ using namespace std;
 //	return 0;
 //}
 
-//方法二：用单调栈来存储
-int main() {
-	int m;
-	cin >> m;
-	vector<int> test(m);
-	for (int i = 0; i < m; i++)
-		cin >> test[i];
-	deque<int> st;
-	int mymax = test[0];
-	st.push_back(test[0]);
-	for (int i = 1; i < m; i++) {
-
-		while (!st.empty() && test[i] <= st.back()) {
-			st.pop_back();
-		}
-		if (test[i] > mymax) {
-			st.push_back(test[i]);
-		}
-		mymax = max(test[i],mymax);
-	}
-	while (!st.empty()) {
-		cout << st.front() << " ";
-		st.pop_front();
-	}
-	cout << endl;
-	system("pause");
-	return 0;
-}
+////方法二：用单调栈来存储
+//int main() {
+//	int m;
+//	cin >> m;
+//	vector<int> test(m);
+//	for (int i = 0; i < m; i++)
+//		cin >> test[i];
+//	deque<int> st;
+//	int mymax = test[0];
+//	st.push_back(test[0]);
+//	for (int i = 1; i < m; i++) {
+//
+//		while (!st.empty() && test[i] <= st.back()) {
+//			st.pop_back();
+//		}
+//		if (test[i] > mymax) {
+//			st.push_back(test[i]);
+//		}
+//		mymax = max(test[i],mymax);
+//	}
+//	while (!st.empty()) {
+//		cout << st.front() << " ";
+//		st.pop_front();
+//	}
+//	cout << endl;
+//	system("pause");
+//	return 0;
+//}

@@ -22,6 +22,9 @@
     <Filter Include="源文件\acwing">
       <UniqueIdentifier>{88e85a19-540b-4237-8ca3-10b571bc2c02}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\C++特性剖析">
+      <UniqueIdentifier>{c93fae0f-dc5d-448a-be99-4137b8b7ae97}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="exclusiveOR_xor.cpp">
@@ -45,19 +48,10 @@
     <ClCompile Include="类.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="cout_out.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="emplace_pushback.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="finddisappearednums.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="largestDivisiblesubset.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="new and delete.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="NumMartix.cpp">
@@ -73,9 +67,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="类currency.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="异常类illegalParameterValue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="链表复制构造函数.cpp">
@@ -114,28 +105,16 @@
     <ClCompile Include="十大排序算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="unordered_map操作.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="练习十大算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="建立二叉树.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="new 对象加括号和不加括号的区别.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="nextgreatelement.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="移动构造.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="二叉树前中后序遍历非递归实现.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="priority_queue对自定义数据排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="牛客LRU.cpp">
@@ -477,40 +456,10 @@
     <ClCompile Include="438_找所有字母异位词.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="初始化列表.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="虚函数表与虚表指针.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="构造与析构的顺序.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="构造函数的分类及调用.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="迭代器.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="智能指针.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="智能指针内部原理.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="lambda表达式.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="function和bind.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="470._用 Rand7() 实现 Rand10().cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
     <ClCompile Include="射手打靶（递归）.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="内存池练习.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="34_在排序数组中查找元素的第一个和最后一个位置.cpp">
@@ -558,9 +507,6 @@
     <ClCompile Include="51_n皇后.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="数组指针与指针数组.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="141_环形链表.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
@@ -591,8 +537,65 @@
     <ClCompile Include="手撕智能指针.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="无需数组找出比左边大比右边小的值.cpp">
+    <ClCompile Include="无序数组找出比左边大比右边小的值.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lambda表达式.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="new 对象加括号和不加括号的区别.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="new and delete.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="function和bind.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="cout_out.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="emplace_pushback.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="priority_queue对自定义数据排序.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="unordered_map操作.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="初始化列表.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="构造函数的分类及调用.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="构造与析构的顺序.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="内存池练习.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="数组指针与指针数组.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="虚函数表与虚表指针.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="移动构造.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="异常类illegalParameterValue.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="智能指针.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="智能指针内部原理.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="迭代器失效.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
