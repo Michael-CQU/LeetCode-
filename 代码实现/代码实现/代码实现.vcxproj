@@ -83,6 +83,8 @@
     <ClCompile Include="61_扑克牌中的顺子.cpp" />
     <ClCompile Include="65_不用加减乘除做加法.cpp" />
     <ClCompile Include="6_Z字形变换.cpp" />
+    <ClCompile Include="705_设计哈希集合.cpp" />
+    <ClCompile Include="706_设计哈希表.cpp" />
     <ClCompile Include="74_搜索二维矩阵.cpp" />
     <ClCompile Include="785_快速排序.cpp" />
     <ClCompile Include="786_第K个数.cpp" />
@@ -117,6 +119,7 @@
     <ClCompile Include="智能指针内部原理.cpp" />
     <ClCompile Include="构造与析构的顺序.cpp" />
     <ClCompile Include="构造函数的分类及调用.cpp" />
+    <ClCompile Include="求大于某个值的质数.cpp" />
     <ClCompile Include="测试线程.cpp" />
     <ClCompile Include="牛客LRU.cpp" />
     <ClCompile Include="121_股票买卖问题.cpp" />
@@ -168,7 +171,7 @@
     <ClCompile Include="20_有效的括号.cpp" />
     <ClCompile Include="215_数组中第K个最大元素.cpp" />
     <ClCompile Include="322_零钱兑换.cpp" />
-    <ClCompile Include="377_combinationsum4.cpp" />
+    <ClCompile Include="377_组合总和4.cpp" />
     <ClCompile Include="392_isSubsequence.cpp" />
     <ClCompile Include="421_findMaximunXOR.cpp" />
     <ClCompile Include="8._字符串转换整数 (atoi).cpp" />

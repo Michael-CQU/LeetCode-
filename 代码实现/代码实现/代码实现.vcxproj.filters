@@ -222,9 +222,6 @@
     <ClCompile Include="347_前k个高频元素.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="377_combinationsum4.cpp">
-      <Filter>源文件\Leetcode</Filter>
-    </ClCompile>
     <ClCompile Include="387_字符串中的第一个唯一字符.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
@@ -596,6 +593,18 @@
     </ClCompile>
     <ClCompile Include="迭代器失效.cpp">
       <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="377_组合总和4.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="705_设计哈希集合.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="求大于某个值的质数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="706_设计哈希表.cpp">
+      <Filter>源文件\Leetcode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
