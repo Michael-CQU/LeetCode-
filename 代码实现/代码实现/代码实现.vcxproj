@@ -111,6 +111,7 @@
     <ClCompile Include="791.字符串相加进位%28高精度加法%29.cpp" />
     <ClCompile Include="射手打靶（递归）.cpp" />
     <ClCompile Include="手写string类.cpp" />
+    <ClCompile Include="手撕创建树.cpp" />
     <ClCompile Include="手撕智能指针.cpp" />
     <ClCompile Include="手撕练习.cpp" />
     <ClCompile Include="数组指针与指针数组.cpp" />

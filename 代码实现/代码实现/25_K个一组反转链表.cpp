@@ -1,7 +1,7 @@
 #include<iostream>
 #include <tuple>
 using namespace std;
-
+//学习时的方法
 struct ListNode {
 	int val;
 	ListNode *next;
@@ -10,43 +10,6 @@ struct ListNode {
 	ListNode(int x, ListNode *next) : val(x), next(next) {}
 	
 };
-
-//class Solution {
-//public:
-//	pair<ListNode*, ListNode*> myReverse(ListNode* head, ListNode* tail,int k) {
-//		ListNode* prev = nullptr;
-//		ListNode* node = head;
-//		while (k) {
-//			ListNode* last = node->next;
-//			node->next = prev;
-//			prev = node;
-//			node = last;
-//			k--;
-//		}
-//		return{ tail,head };
-//	}
-//	ListNode* reverseKGroup(ListNode* head, int k) {
-//		ListNode* dumy = new ListNode(-1);
-//		dumy->next = head;
-//		ListNode* pre = dumy;
-//		while (1) {
-//			ListNode* tail = pre;
-//			for (int i = 0; i < k; i++) {
-//				tail = tail->next;
-//				if (tail == nullptr) {
-//					return dumy->next;
-//				}
-//			}
-//			ListNode* next = tail->next;
-//			tie(head, tail) = myReverse(head, tail,k);
-//			pre->next = head;
-//			tail->next = next;
-//			pre = tail;
-//			head = tail->next;
-//		}
-//		return dumy->next;
-//	}
-//};
 class Solution {
 public:
 	ListNode* myreverse(ListNode* head) {
@@ -96,6 +59,73 @@ public:
 //		cout << res->val << endl;
 //		res = res->next;
 //	}
+//	system("pause");
+//	return 0;
+//}
+
+//自我实现！掌握
+//struct Listnode {
+//	int val;
+//	Listnode* next;
+//	Listnode() :val(-1), next(nullptr) {}
+//	Listnode(int x) :val(x), next(nullptr) {}
+//};
+//
+//class Solution {
+//public:
+//	Listnode* myreverse(Listnode* head) {
+//		Listnode* pre = nullptr;
+//		Listnode* node = head;
+//		while (node) {
+//			Listnode* ne = node->next;
+//			node->next = pre;
+//			pre = node;
+//			node = ne;
+//		}
+//		return pre;
+//	}
+//	Listnode* reverseK(Listnode* head, int k) {
+//		Listnode* dumy = new Listnode();
+//		dumy->next = head;
+//		Listnode* start = dumy;
+//		Listnode* end = dumy;
+//		while (end->next) {
+//			for (int i = 0; i < k&&end != nullptr; i++) {
+//				end = end->next;
+//			}
+//			if (end == nullptr)
+//				break;
+//			Listnode* ne = end->next;
+//			end->next = nullptr;
+//			Listnode* pre = start->next;
+//			start->next = myreverse(pre);
+//			pre->next = ne;
+//			start = pre;
+//			end = pre;
+//		}
+//		return dumy->next;
+//	}
+//};
+//
+//int main() {
+//	int m, k;
+//	cin >> m >> k;
+//	int n = m;
+//	Listnode* dumy = new Listnode();
+//	Listnode* node = dumy;
+//	while (m--) {
+//		int temp;
+//		cin >> temp;
+//		node->next = new Listnode(temp);
+//		node = node->next;
+//	}
+//	Solution s;
+//	Listnode* res = s.reverseK(dumy->next, k);
+//	for (int i = 0; i < n; i++) {
+//		cout << res->val << " ";
+//		res = res->next;
+//	}
+//	cout << endl;
 //	system("pause");
 //	return 0;
 //}

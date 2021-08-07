@@ -157,7 +157,7 @@ put£ºÍ¬getÒ»ÑùÊ×ÏÈÓÃµü´úÆ÷ÔÚ¹þÏ£±íÖÐÕÒÊÇ·ñ´æÔÚ¹Ø¼ü×Ökey£¬Èç¹û´æÔÚ£¬¾Í½«¸ÃÖµ·Åµ½Á
 //		if (mp.find(key) != mp.end()) {
 //			cap.remove(mp[key]);
 //			mp.erase(key);
-//			put(key, value);//×¢ÒâÕâÀïµÄË³ÐòºÜÖØÒª£¬Ò»¶¨ÒªÏÈ°Ñcap.remove(mp[key]);ºÍmp.erase(key);Ö´ÐÐÍêÔÙÖ´ÐÐput²Ù×÷£¬É¾³ýÊÇÒ»¸öÔ­×Ó²Ù×÷
+//			put(key, value);//×¢ÒâÕâÀïµÄË³ÐòºÜÖØÒª£¬Ò»¶¨ÒªÏÈ°Ñcap.remove(mp[key])ºÍmp.erase(key)Ö´ÐÐÍêÔÙÖ´ÐÐput²Ù×÷£¬É¾³ýÊÇÒ»¸öÔ­×Ó²Ù×÷
 //			mp.insert(make_pair(key, make_pair(key, value)));
 //		}
 //		else {
@@ -237,6 +237,13 @@ public:
 		head->next = node;
 	}
 };
+
+/**
+* Your LRUCache object will be instantiated and called as such:
+* LRUCache* obj = new LRUCache(capacity);
+* int param_1 = obj->get(key);
+* obj->put(key,value);
+*/
 //int main() {
 //	int capacity = 2;
 //	LRUCache* obj = new LRUCache(capacity);
