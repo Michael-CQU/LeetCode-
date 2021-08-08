@@ -34,6 +34,7 @@
     <ClCompile Include="154_滑动窗口.cpp" />
     <ClCompile Include="155_最小栈.cpp" />
     <ClCompile Include="15_三数之和.cpp" />
+    <ClCompile Include="169_多数元素.cpp" />
     <ClCompile Include="16_数值的整数次方.cpp" />
     <ClCompile Include="17_打印从1到最大的n位数.cpp" />
     <ClCompile Include="18_删除链表的节点.cpp" />
@@ -104,9 +105,11 @@
     <ClCompile Include="830_单调栈.cpp" />
     <ClCompile Include="function和bind.cpp" />
     <ClCompile Include="lambda表达式.cpp" />
+    <ClCompile Include="NC11_将升序数组转化为平衡二叉搜索树.cpp" />
     <ClCompile Include="二分查找（递归+非递归）.cpp" />
     <ClCompile Include="内存池练习.cpp" />
     <ClCompile Include="初始化列表.cpp" />
+    <ClCompile Include="去除字符串中的空格.cpp" />
     <ClCompile Include="周赛248.cpp" />
     <ClCompile Include="791.字符串相加进位%28高精度加法%29.cpp" />
     <ClCompile Include="射手打靶（递归）.cpp" />

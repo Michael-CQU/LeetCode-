@@ -25,6 +25,9 @@
     <Filter Include="源文件\C++特性剖析">
       <UniqueIdentifier>{c93fae0f-dc5d-448a-be99-4137b8b7ae97}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\牛客">
+      <UniqueIdentifier>{aee3fb46-2148-4191-b5a1-01d2f44753aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="exclusiveOR_xor.cpp">
@@ -607,6 +610,15 @@
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
     <ClCompile Include="手撕创建树.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="NC11_将升序数组转化为平衡二叉搜索树.cpp">
+      <Filter>源文件\牛客</Filter>
+    </ClCompile>
+    <ClCompile Include="去除字符串中的空格.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="169_多数元素.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
   </ItemGroup>
