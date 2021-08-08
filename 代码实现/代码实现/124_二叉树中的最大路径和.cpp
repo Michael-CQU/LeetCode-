@@ -11,18 +11,18 @@ using namespace std;
 //     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 //};
 //class Solution {
-//    int mymax = INT_MIN;
 //public:
-//    int mygetmax(TreeNode* root){
-//        if(root == nullptr)return 0;
-//        int left = max(mygetmax(root->left),0);//递归进行各个节点为顶点的最大路径值
-//        int right = max(mygetmax(root->right),0);
-//        mymax = max(mymax,left+right+root->val);//以此节点为顶点的路径最大和为顶点值加上左右两侧的值
-//        return max(left,right)+root->val;//返回以当前节点为定点的路径的单侧最大值
-//    }
-//    int maxPathSum(TreeNode* root) {
-//        if(root == nullptr)return 0;
-//        mygetmax(root);
-//        return mymax;
-//    }
+//	int mymax = INT_MIN;
+//	int mycompare(TreeNode* root) {
+//		if (root == nullptr)return 0;
+//		int left = max(mycompare(root->left), 0);
+//		int right = max(mycompare(root->right), 0);
+//		int lmr = left + right + root->val;
+//		mymax = max(mymax, lmr);
+//		return root->val + max(left, right);//返回单侧路径
+//	}
+//	int maxPathSum(TreeNode* root) {
+//		mycompare(root);
+//		return mymax;
+//	}
 //};

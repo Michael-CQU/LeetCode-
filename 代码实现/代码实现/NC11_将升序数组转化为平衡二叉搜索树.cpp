@@ -11,18 +11,23 @@ TreeNode(int x) :val(x), left(nullptr), right(nullptr) {}
 
 class Solution {
 public:
-    TreeNode* myBST(vector<int>& num,int idx){
-        if(idx<0||idx>=num.size())
-            return nullptr;
-        TreeNode* root = new TreeNode(-1);
-        root->left = myBST(num,idx-1);
-        root->val = num[idx];
-        root->right = myBST(num, idx+1);
-        return root;
-    }
-    TreeNode* sortedArrayToBST(vector<int>& num) {
-        return myBST(num,1);
-    }
+	/**
+	*
+	* @param num int’˚–Õvector
+	* @return TreeNode¿‡
+	*/
+	TreeNode* mybuild(vector<int>& num, int left, int right) {
+		if (left>right)return nullptr;
+		int mid = (right - left + 1) / 2 + left;
+		TreeNode* root = new TreeNode(num[mid]);
+		root->left = mybuild(num, left, mid - 1);
+		root->right = mybuild(num, mid + 1, right);
+		return root;
+	}
+	TreeNode* sortedArrayToBST(vector<int>& num) {
+		int n = num.size() - 1;
+		return mybuild(num, 0, n);
+	}
 };
 
 //int main() {
