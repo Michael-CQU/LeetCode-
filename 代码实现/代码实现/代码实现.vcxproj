@@ -106,6 +106,7 @@
     <ClCompile Include="function和bind.cpp" />
     <ClCompile Include="lambda表达式.cpp" />
     <ClCompile Include="NC11_将升序数组转化为平衡二叉搜索树.cpp" />
+    <ClCompile Include="NC9_二叉树中是否存在节点和为指定值的路径.cpp" />
     <ClCompile Include="二分查找（递归+非递归）.cpp" />
     <ClCompile Include="内存池练习.cpp" />
     <ClCompile Include="初始化列表.cpp" />

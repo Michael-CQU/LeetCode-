@@ -621,6 +621,9 @@
     <ClCompile Include="169_多数元素.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="NC9_二叉树中是否存在节点和为指定值的路径.cpp">
+      <Filter>源文件\牛客</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
