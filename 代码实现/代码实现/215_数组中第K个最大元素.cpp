@@ -71,11 +71,12 @@ using namespace std;
 //};
 
 //int main() {
-//	vector<int> test = { 3,2,3,1,2,4,5,5,6 };
-//	int k = 7;
+//	vector<int> test = { 10,10,9,9,8,7,5,6,4,3,4,2 };
+//	int k = 3;
+//	int n = 12;
 //	Solution s;
-//	int res = s.findKthLargest(test, k);
+//	int res = s.findKth(test,n,k);
 //	cout << res << endl;
-//	system("pause");
+// 	system("pause");
 //	return 0;
 //}
