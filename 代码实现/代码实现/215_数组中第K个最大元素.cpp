@@ -69,13 +69,13 @@ using namespace std;
 //		return nums[0];
 //	}
 //};
-
+//
 //int main() {
 //	vector<int> test = { 10,10,9,9,8,7,5,6,4,3,4,2 };
 //	int k = 3;
 //	int n = 12;
 //	Solution s;
-//	int res = s.findKth(test,n,k);
+//	int res = s.findKthLargest(test,k);
 //	cout << res << endl;
 // 	system("pause");
 //	return 0;
