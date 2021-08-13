@@ -166,6 +166,7 @@
     <ClCompile Include="59_队列最大值.cpp" />
     <ClCompile Include="建立二叉树.cpp" />
     <ClCompile Include="牛客练习考试.cpp" />
+    <ClCompile Include="生产者-消费者模型.cpp" />
     <ClCompile Include="移动构造.cpp" />
     <ClCompile Include="练习十大算法.cpp" />
     <ClCompile Include="1190_反转每对括号间的子串.cpp" />

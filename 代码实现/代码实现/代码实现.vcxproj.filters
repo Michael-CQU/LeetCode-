@@ -624,6 +624,9 @@
     <ClCompile Include="NC9_二叉树中是否存在节点和为指定值的路径.cpp">
       <Filter>源文件\牛客</Filter>
     </ClCompile>
+    <ClCompile Include="生产者-消费者模型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
