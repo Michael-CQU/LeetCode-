@@ -627,6 +627,12 @@
     <ClCompile Include="生产者-消费者模型.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="交换两个数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="大疆笔试编程题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
