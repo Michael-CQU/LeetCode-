@@ -111,6 +111,7 @@
     <ClCompile Include="内存池练习.cpp" />
     <ClCompile Include="初始化列表.cpp" />
     <ClCompile Include="去除字符串中的空格.cpp" />
+    <ClCompile Include="只能在堆上创建的类.cpp" />
     <ClCompile Include="周赛248.cpp" />
     <ClCompile Include="791.字符串相加进位%28高精度加法%29.cpp" />
     <ClCompile Include="射手打靶（递归）.cpp" />

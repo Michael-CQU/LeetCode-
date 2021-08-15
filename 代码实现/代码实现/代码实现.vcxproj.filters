@@ -627,6 +627,9 @@
     <ClCompile Include="生产者-消费者模型.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="只能在堆上创建的类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
