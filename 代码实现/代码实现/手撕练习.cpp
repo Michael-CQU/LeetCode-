@@ -1,20 +1,22 @@
-﻿//#include<bits/stdc++.h>
-//using namespace std;
-
-#include<iostream>
-#include<unordered_map>
-#include<string>
+﻿#include<bits/stdc++.h>
 using namespace std;
 
-unordered_map<char,int> mp={{'0',0},{'1',1},{'2',2},{'3',3},{'4',4},{'5',5},{'6',6},{'7',7},{'8',8},{'9',9},{'A',10},{'B',11},{'C',12},{'D',13},{'E',14},{'F',15}};
-int main(){
-    string a;
-    while(cin>>a){
-        int n = a.size();
-        int res = 0;
-        for(int i = 2;i<n;i++){
-            res = res*16 + mp[a[i]];
-        }
-        cout << res <<endl;
-    }
-}
+//int main() {
+//	vector<int> a = { 1,2,3,4,5,6 };
+//	vector<int> b = { 2,1,5,4,7 };
+//	int m = a.size();
+//	int n = a.size() + b.size();
+//	for (int i = 0; i < b.size(); i++) {
+//		a.push_back(b[i]);
+//	}
+//	for (int i = 0; i < n; i++) {
+//		for (int j = 0; j < n - i - 1; j++) {
+//			if (a[j] < a[j + 1])
+//				swap(a[j], a[j + 1]);
+//		}
+//	}
+//	for (int i : a)
+//		cout << i << " ";
+//	system("pause");
+//	return 0;
+//}
