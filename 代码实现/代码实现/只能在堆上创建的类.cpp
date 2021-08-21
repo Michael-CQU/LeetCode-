@@ -1,7 +1,7 @@
 /*
 class   NoStackObject
 {
-protected:
+protected://构造函数设置为保护或者私有
 	NoStackObject() {   }
 	~NoStackObject() {   }
 public:
