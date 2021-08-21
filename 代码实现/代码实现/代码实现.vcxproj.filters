@@ -627,6 +627,15 @@
     <ClCompile Include="生产者-消费者模型.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="交换两个数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="大疆笔试编程题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="连续子序列的完美数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="只能在堆上创建的类.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

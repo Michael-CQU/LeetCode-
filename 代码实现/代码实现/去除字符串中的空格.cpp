@@ -1,12 +1,14 @@
-//#include<bits/stdc++.h>
-//using namespace std;
+#include<bits/stdc++.h>
+using namespace std;
 //
 //int main() {
-//	string test;
+//	
 //	int m;
 //	cin >> m;
 //	cin.ignore();
+//	string test;
 //	getline(cin, test);
+//	//cin >> test;
 //	int n = test.size();
 //
 //	//方法一：额外空间
