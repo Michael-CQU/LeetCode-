@@ -1,22 +1,14 @@
 ﻿#include<bits/stdc++.h>
 using namespace std;
 
+uint64_t fun(uint32_t a) {
+	static const uint32_t b = 1 << 12;
+	return a*b;
+}
 //int main() {
-//	vector<int> a = { 1,2,3,4,5,6 };
-//	vector<int> b = { 2,1,5,4,7 };
-//	int m = a.size();
-//	int n = a.size() + b.size();
-//	for (int i = 0; i < b.size(); i++) {
-//		a.push_back(b[i]);
-//	}
-//	for (int i = 0; i < n; i++) {
-//		for (int j = 0; j < n - i - 1; j++) {
-//			if (a[j] < a[j + 1])
-//				swap(a[j], a[j + 1]);
-//		}
-//	}
-//	for (int i : a)
-//		cout << i << " ";
+//	int a = INT_MAX;
+//	uint64_t res = fun(a);
+//	cout << res << endl;
 //	system("pause");
 //	return 0;
 //}
