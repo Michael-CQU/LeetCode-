@@ -58,6 +58,7 @@
     <ClCompile Include="409_最长回文串.cpp" />
     <ClCompile Include="40_最小的K个数.cpp" />
     <ClCompile Include="41_数据流中的中位数.cpp" />
+    <ClCompile Include="41_缺失的第一个正数.cpp" />
     <ClCompile Include="438_找所有字母异位词.cpp" />
     <ClCompile Include="45_把数组排成最小的数.cpp" />
     <ClCompile Include="470._用 Rand7() 实现 Rand10().cpp" />
@@ -107,6 +108,7 @@
     <ClCompile Include="lambda表达式.cpp" />
     <ClCompile Include="NC11_将升序数组转化为平衡二叉搜索树.cpp" />
     <ClCompile Include="NC9_二叉树中是否存在节点和为指定值的路径.cpp" />
+    <ClCompile Include="两数相乘.cpp" />
     <ClCompile Include="二分查找（递归+非递归）.cpp" />
     <ClCompile Include="交换两个数字.cpp" />
     <ClCompile Include="内存池练习.cpp" />
