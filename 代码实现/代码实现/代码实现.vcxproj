@@ -105,6 +105,7 @@
     <ClCompile Include="826_单链表.cpp" />
     <ClCompile Include="829_模拟队列.cpp" />
     <ClCompile Include="830_单调栈.cpp" />
+    <ClCompile Include="84_柱状图中最大的矩形.cpp" />
     <ClCompile Include="function和bind.cpp" />
     <ClCompile Include="lambda表达式.cpp" />
     <ClCompile Include="NC11_将升序数组转化为平衡二叉搜索树.cpp" />
