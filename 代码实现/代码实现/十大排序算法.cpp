@@ -74,9 +74,9 @@ void quickSort(int left, int right, int arr[])
 	base = arr[left];  //取最左边的数为基准数
 	while (i < j)
 	{
-		while (arr[j] >= base && i < j)//！！！注意：如果pivot值从最左边取，则一定要先从j--开始，再i++。顺序一定不能反。注意等于号一定要写上，不然逻辑会有错误，和pivot相等的值就会和pivot无法挨在一起
+		while (i<j&&arr[j] >= base)//！！！注意：如果pivot值从最左边取，则一定要先从j--开始，再i++。顺序一定不能反。注意等于号一定要写上，不然逻辑会有错误，和pivot相等的值就会和pivot无法挨在一起
 			j--;
-		while (arr[i] <= base && i < j)//如果要从大到小排列，则改为arr[i] >= base
+		while (i<j&&arr[i] <= base)//如果要从大到小排列，则改为arr[i] >= base
 			i++;
 		swap(arr[i], arr[j]);
 	}
@@ -91,9 +91,11 @@ template<typename T> //整數或浮點數皆可使用，若要使用物件（class）時必須設定大於
 void selection_sort(std::vector<T>& arr) {
 	for (int i = 0; i < arr.size() - 1; i++) {
 		int min = i;
-		for (int j = i + 1; j < arr.size(); j++)
-			if (arr[j] < arr[min])
+		for (int j = i + 1; j < arr.size(); j++) {
+			if (arr[j] < arr[min]) {
 				min = j;
+			}	
+		}
 		std::swap(arr[i], arr[min]);
 	}
 }
@@ -155,11 +157,11 @@ void max_heapify(int arr[], int start, int end) {
 void heap_sort(int arr[], int len) {
 	// 初始化，i從最後一個父節點開始調整
 	for (int i = len / 2 - 1; i >= 0; i--)
-		max_heapify(arr, i, len - 1);
+		max_heapify(arr, i, len - 1);//树一开始是整体无序的，因此需要一支一支逐步调整
 	// 先將第一個元素和已经排好的元素前一位做交換，再從新調整(刚调整的元素之前的元素)，直到排序完畢
 	for (int i = len - 1; i > 0; i--) {
 		swap(arr[0], arr[i]);
-		max_heapify(arr, 0, i - 1);
+		max_heapify(arr, 0, i - 1);//树整体是有序的，只是堆顶无序，因此走一遍堆顶i=0的排序就可以
 	}
 }
 //有序数组合并

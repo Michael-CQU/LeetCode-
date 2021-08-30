@@ -30,3 +30,31 @@ void consumer() {
 
 */
 //注意实现互斥的P操作一定要在实现同步的P操作之后，否则会导致“死锁”。（V操作不会导致进程阻塞，因此两个V的顺序可以随意交换）
+
+//const int N = 100;
+//typedef int semaphore;
+//semaphore mutex = 1;
+//semaphore empty = N;
+//semaphore full = 0;
+//
+//void productor() {
+//	while (1) {
+//		produce();
+//		down(empty);
+//		down(mutex);
+//		insert();
+//		up(nutex);
+//		up(full);
+//	}
+//}
+//
+//void consumer() {
+//	while (1) {
+//		down(full);
+//		down(mutex);
+//		take();
+//		up(mutex);
+//		up(empty);
+//		consume();
+//	}
+//}

@@ -636,6 +636,15 @@
     <ClCompile Include="连续子序列的完美数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="只能在堆上创建的类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="两数相乘.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41_缺失的第一个正数.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
     <ClCompile Include="139_单词拆分.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
