@@ -35,7 +35,7 @@ public:
 	}
 	smartptr<T>& operator=(const smartptr& s) {//传入对象,引用方式返回本体
 		if (this != &s) {
-			if (--(*_count) == 0) {
+			if (--(*_count) == 0) {//先判断是否需要先释放自身资源
 				delete _ptr;
 				delete _count;
 			}

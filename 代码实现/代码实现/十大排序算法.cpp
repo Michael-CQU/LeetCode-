@@ -230,9 +230,9 @@ bool MergeSort(int a[], int n)
 }
 //归并排序（非递归）
 void merge_array(int arr[], int arr1[], int ls1, int rs1, int n) {//用于合并
-																  //方法一：k从ls1开始
-																  //int i = ls1, j = rs1, k = ls1;
-																  //方法二:注意k必须是从0开始，因为与方法1不同，arr1不再用于保存合并排序后的数据
+	//方法一：k从ls1开始
+	//int i = ls1, j = rs1, k = ls1;
+	//方法二:注意k必须是从0开始，因为与方法1不同，arr1不再用于保存合并排序后的数据
 	int i = ls1, j = rs1, k = 0;
 	while (i < rs1&&j < n + 1) {
 		if (arr[i] < arr[j]) {

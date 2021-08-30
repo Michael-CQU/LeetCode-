@@ -636,6 +636,18 @@
     <ClCompile Include="连续子序列的完美数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="139_单词拆分.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="走迷宫.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="三个线程循环打印0-100.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="进制转换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
