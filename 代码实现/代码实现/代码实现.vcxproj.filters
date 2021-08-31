@@ -660,6 +660,12 @@
     <ClCompile Include="84_柱状图中最大的矩形.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="91_解码方法.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="85_最大矩形.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
