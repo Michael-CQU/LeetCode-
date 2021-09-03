@@ -110,6 +110,7 @@
     <ClCompile Include="91_解码方法.cpp" />
     <ClCompile Include="function和bind.cpp" />
     <ClCompile Include="lambda表达式.cpp" />
+    <ClCompile Include="momo二面.cpp" />
     <ClCompile Include="NC11_将升序数组转化为平衡二叉搜索树.cpp" />
     <ClCompile Include="NC9_二叉树中是否存在节点和为指定值的路径.cpp" />
     <ClCompile Include="两数相乘.cpp" />
@@ -225,6 +226,7 @@
     <ClCompile Include="类.cpp" />
     <ClCompile Include="类currency.cpp" />
     <ClCompile Include="归并排序.cpp" />
+    <ClCompile Include="荷兰国旗问题.cpp" />
     <ClCompile Include="虚函数表与虚表指针.cpp" />
     <ClCompile Include="走迷宫.cpp" />
     <ClCompile Include="进制转换.cpp" />
