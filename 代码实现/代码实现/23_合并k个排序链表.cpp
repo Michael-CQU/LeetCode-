@@ -99,7 +99,8 @@ public:
 	priority_queue<ListNode*, vector<ListNode*>, cmp> q;
 	ListNode* mergeKLists(vector<ListNode*>& lists) {
 		for (auto i : lists)
-			if (i)q.push(i);
+			if (i)
+				q.push(i);
 		ListNode* head = new ListNode(-1);
 		ListNode* tail = head;
 		while (!q.empty()) {

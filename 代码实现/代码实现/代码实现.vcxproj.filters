@@ -672,6 +672,12 @@
     <ClCompile Include="momo二面.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="994_腐烂的橘子.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="单个锁是否会造成死锁.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
