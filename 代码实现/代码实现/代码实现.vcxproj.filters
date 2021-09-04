@@ -678,6 +678,9 @@
     <ClCompile Include="单个锁是否会造成死锁.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="165_比较版本号.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

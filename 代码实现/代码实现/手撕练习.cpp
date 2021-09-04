@@ -33,3 +33,10 @@ uint64_t fun(uint32_t a) {
 //	//cout << q[1][2] << endl;
 //	system("pause");
 //}
+
+//int main() {
+//	int a[9] = {0,1,2,3,4,5,6,7,8};
+//	int *p = a;
+//	cout << *(p+1) << endl;
+//	system("pause");
+//}
