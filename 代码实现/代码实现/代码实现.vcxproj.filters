@@ -681,6 +681,15 @@
     <ClCompile Include="165_比较版本号.cpp">
       <Filter>源文件\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="416_分割等子集.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="零钱兑换（输出钱币）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分解质因数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

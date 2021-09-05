@@ -59,6 +59,7 @@
     <ClCompile Include="402_移掉k位数字.cpp" />
     <ClCompile Include="409_最长回文串.cpp" />
     <ClCompile Include="40_最小的K个数.cpp" />
+    <ClCompile Include="416_分割等子集.cpp" />
     <ClCompile Include="41_数据流中的中位数.cpp" />
     <ClCompile Include="41_缺失的第一个正数.cpp" />
     <ClCompile Include="438_找所有字母异位词.cpp" />
@@ -120,6 +121,7 @@
     <ClCompile Include="二分查找（递归+非递归）.cpp" />
     <ClCompile Include="交换两个数字.cpp" />
     <ClCompile Include="内存池练习.cpp" />
+    <ClCompile Include="分解质因数.cpp" />
     <ClCompile Include="初始化列表.cpp" />
     <ClCompile Include="单个锁是否会造成死锁.cpp" />
     <ClCompile Include="去除字符串中的空格.cpp" />
@@ -236,6 +238,7 @@
     <ClCompile Include="连续子序列的完美数.cpp" />
     <ClCompile Include="迭代器失效.cpp" />
     <ClCompile Include="链表复制构造函数.cpp" />
+    <ClCompile Include="零钱兑换（输出钱币）.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AVLTree.hpp" />
