@@ -42,6 +42,10 @@ using namespace std;
 //	return out;
 //}
 ////strcpy：把src所指向的字符串复制到dest（当src<dest<src+n,n为字符串长度，不包含‘/0’时，内存重叠！！！）
+/*
+char src[66] = "lightcity";
+strcpy(src + 1, src, strlen(src) + 1);
+*/
 //char* mystrcpy(char* dest,char* src) {
 //	if (!dest || !src)
 //		return nullptr;

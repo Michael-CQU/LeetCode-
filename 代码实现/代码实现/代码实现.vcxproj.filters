@@ -690,6 +690,24 @@
     <ClCompile Include="分解质因数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="518_零钱兑换2.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="33_搜索旋转排序数组.cpp">
+      <Filter>源文件\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="多态案例(OPPO笔试题).cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="信号量与同步.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
+    <ClCompile Include="会议室2（打车问题）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="函数内申请地址空间.cpp">
+      <Filter>源文件\C++特性剖析</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">

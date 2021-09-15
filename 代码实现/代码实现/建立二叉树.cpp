@@ -131,9 +131,9 @@ BSTreeNode * creatBTree(int data[], int index, int n)
 	{
 		//pNode = (BSTreeNode *)malloc(sizeof(BSTreeNode));
 		pNode = new BSTreeNode;
-		//if (pNode == NULL)
-		//	return NULL;
-		//if (data[index] == -1) {
+				//if (pNode == NULL)
+				//	return NULL;
+		//if (data[index] == -1) {//此语句和if (index < n && data[index] != -1)等价，主要作用是不显示值为-1的点
 		//	return nullptr;
 		//}
 		pNode->m_nValue = data[index];
@@ -184,10 +184,13 @@ void inorder1(BSTreeNode* root) {
 //	int a[] = { 3,5,1,6,2,10,8,-1,-1,7,4 };
 //	//int a[] = { 3,9,20,-1,-1,15,7 };
 //	BSTreeNode *root = nullptr;
-//	//root = creatBTree(a, 0, sizeof(a) / sizeof(a[0]));
-//	//preorder1(root);
-//	//inorder1(root);
-//	//levelordertraver(root);
+//	root = creatBTree(a, 0, sizeof(a) / sizeof(a[0]));
+//	preorder1(root);
+//	cout << endl;
+//	inorder1(root);
+//	cout << endl;
+//	levelordertraver(root);
+//	cout << endl;
 //	system("pause");
 //	return 0;
 //}

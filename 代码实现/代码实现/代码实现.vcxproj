@@ -50,6 +50,7 @@
     <ClCompile Include="301_删除无效的括号.cpp" />
     <ClCompile Include="31_下一个排列.cpp" />
     <ClCompile Include="32_最长有效括号.cpp" />
+    <ClCompile Include="33_搜索旋转排序数组.cpp" />
     <ClCompile Include="349_两个数组的交集.cpp" />
     <ClCompile Include="34_在排序数组中查找元素的第一个和最后一个位置.cpp" />
     <ClCompile Include="350_两个数组的交集2.cpp" />
@@ -70,6 +71,7 @@
     <ClCompile Include="4_二维数组中的查找.cpp" />
     <ClCompile Include="4_寻找两个正序数组的中位数.cpp" />
     <ClCompile Include="50_第一个只出现一次的字符.cpp" />
+    <ClCompile Include="518_零钱兑换2.cpp" />
     <ClCompile Include="51_n皇后.cpp" />
     <ClCompile Include="51_数组中的逆序对.cpp" />
     <ClCompile Include="52_两个链表的第一个公共节点.cpp" />
@@ -120,7 +122,10 @@
     <ClCompile Include="三个线程循环打印0-100.cpp" />
     <ClCompile Include="二分查找（递归+非递归）.cpp" />
     <ClCompile Include="交换两个数字.cpp" />
+    <ClCompile Include="会议室2（打车问题）.cpp" />
+    <ClCompile Include="信号量与同步.cpp" />
     <ClCompile Include="内存池练习.cpp" />
+    <ClCompile Include="函数内申请地址空间.cpp" />
     <ClCompile Include="分解质因数.cpp" />
     <ClCompile Include="初始化列表.cpp" />
     <ClCompile Include="单个锁是否会造成死锁.cpp" />
@@ -128,6 +133,7 @@
     <ClCompile Include="只能在堆上创建的类.cpp" />
     <ClCompile Include="周赛248.cpp" />
     <ClCompile Include="791.字符串相加进位%28高精度加法%29.cpp" />
+    <ClCompile Include="多态案例(OPPO笔试题).cpp" />
     <ClCompile Include="大疆笔试编程题.cpp" />
     <ClCompile Include="射手打靶（递归）.cpp" />
     <ClCompile Include="手写string类.cpp" />

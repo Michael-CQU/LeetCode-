@@ -1,6 +1,8 @@
 ﻿#include<bits/stdc++.h>
+#include <stdlib.h>
+#include <crtdbg.h>
 using namespace std;
-
+#define _CRTDBG_MAP_ALLOC
 uint64_t fun(uint32_t a) {
 	static const uint32_t b = 1 << 12;
 	return a*b;
@@ -39,4 +41,20 @@ uint64_t fun(uint32_t a) {
 //	int *p = a;
 //	cout << *(p+1) << endl;
 //	system("pause");
+//}
+
+//void fun111(char *&p1) {
+//	p1 = (char*)malloc(sizeof(char) * 10);
+//	*p1 = 10000;
+//	_CrtDumpMemoryLeaks();
+//}
+//int main() {
+//	for (int i = 0; i < 10000000; i++) {
+//		char*p = nullptr;
+//		fun111(p);
+//		free(p);
+//		_CrtDumpMemoryLeaks();
+//		system("pause");
+//		return 0;
+//	}
 //}

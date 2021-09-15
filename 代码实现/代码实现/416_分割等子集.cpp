@@ -44,7 +44,7 @@ public:
         int target = sum/2;
         vector<int> dp(target+1,0);
 
-        for(int i = 1;i<n;i++){
+        for(int i = 0;i<n;i++){
             for(int j = target;j>=nums[i];j--){
                     dp[j] = max(dp[j],dp[j-nums[i]]+nums[i]);
             }
@@ -57,7 +57,7 @@ public:
 };
 //int main() {
 //	Solution s;
-//	vector<int> input = {1,5,10,6};
+//	vector<int> input = {1,5,11,5};
 //	s.canPartition(input);
 //	system("pause");
 //}
