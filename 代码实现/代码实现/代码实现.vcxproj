@@ -136,6 +136,7 @@
     <ClCompile Include="多态案例(OPPO笔试题).cpp" />
     <ClCompile Include="大疆笔试编程题.cpp" />
     <ClCompile Include="射手打靶（递归）.cpp" />
+    <ClCompile Include="微信分钱.cpp" />
     <ClCompile Include="手写string类.cpp" />
     <ClCompile Include="手撕创建树.cpp" />
     <ClCompile Include="手撕智能指针.cpp" />
@@ -257,7 +258,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{43A7F012-8124-4817-BBAA-7F03B9BC87ED}</ProjectGuid>
     <RootNamespace>代码实现</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

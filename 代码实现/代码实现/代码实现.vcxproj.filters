@@ -708,6 +708,9 @@
     <ClCompile Include="函数内申请地址空间.cpp">
       <Filter>源文件\C++特性剖析</Filter>
     </ClCompile>
+    <ClCompile Include="微信分钱.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time_interval.h">
